@@ -1,0 +1,1621 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ekta Sharma — Free Credit Score Check, Credit Cards, Personal Loans, Business Loans. Gromo Verified Financial Advisor, Delhi NCR.">
+<meta name="keywords" content="credit card, personal loan, business loan, credit score check, CIBIL score, free financial advice, Gromo, Delhi NCR">
+<meta property="og:title" content="Ekta Sharma — Free Financial Advice | Gromo Advisor">
+<meta property="og:description" content="Free Credit Score Check + Best Credit Cards, Loans & Investments. Gromo Verified Advisor. 100% Free, 2 Min Process.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://i.ibb.co/ekta-sharma-og/ekta-advisor-banner.jpg">
+<!-- ↑ TODO: ibb.co pe ek 1200x630 banner image upload karein aur URL update karein -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#8B0030">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💳</text></svg>">
+<title>Ekta Sharma — Financial Advisor | Free Credit Check | Gromo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600;700&family=Noto+Sans+Devanagari:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ════════════════════════════ CSS TOKENS ════════════════════════════ */
+:root{
+  --c:#8B0030;--c2:#B8004A;--c3:#6D0025;
+  --g:#C9922A;--g2:#E8B84B;--g3:#F5D080;
+  --dark:#0F0A0D;--d2:#1A1018;--d3:#2D2230;
+  --cream:#FAF7F2;--cream2:#F2EDE4;
+  --mid:#6B5870;--white:#FFFFFF;
+  --green:#1A7A3C;--wa:#25D366;
+  --serif:'Cormorant Garamond',serif;
+  --sans:'DM Sans',sans-serif;
+  --deva:'Noto Sans Devanagari',sans-serif;
+  --r:18px;--shadow:0 20px 60px rgba(139,0,48,0.12);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{background:var(--cream);color:var(--d2);font-family:var(--sans);overflow-x:hidden;}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar{width:4px;}
+::-webkit-scrollbar-track{background:var(--d2);}
+::-webkit-scrollbar-thumb{background:var(--g);border-radius:2px;}
+
+/* ── SCROLL PROGRESS BAR ── */
+#progress-bar{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--c),var(--g2));z-index:9999;transition:width 0.1s;}
+
+/* ════════════════════════════ TOPBAR ════════════════════════════ */
+.topbar{
+  background:var(--dark);padding:9px 20px;text-align:center;
+  font-size:11.5px;color:rgba(255,255,255,0.55);letter-spacing:0.5px;
+  font-family:var(--deva);
+}
+.topbar b{color:var(--g2);}
+.topbar a{color:var(--g2);text-decoration:none;}
+
+/* ════════════════════════════ NAV ════════════════════════════ */
+.nav{
+  position:sticky;top:0;z-index:500;
+  background:rgba(15,10,13,0.96);backdrop-filter:blur(16px);
+  border-bottom:1px solid rgba(201,146,42,0.15);
+  padding:0 24px;
+}
+.nav-inner{
+  max-width:1100px;margin:0 auto;height:60px;
+  display:flex;align-items:center;justify-content:space-between;gap:16px;
+}
+.nav-brand{font-family:var(--serif);font-size:22px;font-weight:700;color:var(--white);}
+.nav-brand span{color:var(--g2);}
+.nav-links{display:flex;gap:24px;align-items:center;}
+.nav-links a{color:rgba(255,255,255,0.55);font-size:13px;font-weight:500;text-decoration:none;transition:color 0.2s;}
+.nav-links a:hover{color:var(--g2);}
+.nav-cta{
+  background:linear-gradient(135deg,var(--g),var(--g2));
+  color:var(--dark);padding:8px 18px;border-radius:8px;
+  font-size:12px;font-weight:700;text-decoration:none;white-space:nowrap;
+  transition:all 0.2s;
+}
+.nav-cta:hover{box-shadow:0 6px 20px rgba(201,146,42,0.35);transform:translateY(-1px);}
+.nav-refer{
+  background:rgba(201,146,42,0.12);border:1px solid rgba(201,146,42,0.3);
+  color:var(--g2);padding:8px 16px;border-radius:8px;
+  font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;
+  cursor:pointer;transition:all 0.2s;
+}
+.nav-refer:hover{background:rgba(201,146,42,0.2);}
+@media(max-width:720px){.nav-links{display:none;}}
+
+/* ════════════════════════════ HERO ════════════════════════════ */
+.hero{
+  background:linear-gradient(145deg,var(--dark) 0%,#3D0015 45%,var(--dark) 100%);
+  min-height:100vh;display:flex;flex-direction:column;justify-content:center;
+  position:relative;overflow:hidden;padding:100px 40px 80px;
+}
+.hero-bg1{position:absolute;inset:0;background:radial-gradient(ellipse 80% 70% at 80% 50%,rgba(201,146,42,0.06) 0%,transparent 70%),radial-gradient(ellipse 60% 80% at 10% 30%,rgba(139,0,48,0.3) 0%,transparent 70%);}
+.hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(201,146,42,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(201,146,42,0.04) 1px,transparent 1px);background-size:50px 50px;}
+.hero-orb{position:absolute;top:-120px;right:-120px;width:600px;height:600px;border-radius:50%;border:1px solid rgba(201,146,42,0.1);}
+.hero-orb::before{content:'';position:absolute;inset:50px;border-radius:50%;border:1px dashed rgba(201,146,42,0.06);animation:spin 30s linear infinite;}
+.hero-orb::after{content:'';position:absolute;inset:100px;border-radius:50%;border:1px solid rgba(201,146,42,0.05);}
+@keyframes spin{to{transform:rotate(360deg);}}
+.hero-inner{max-width:1100px;margin:0 auto;position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;}
+@media(max-width:860px){.hero-inner{grid-template-columns:1fr;}.hero-right-col{display:none;}}
+
+/* HERO LEFT */
+.hero-badge{
+  display:inline-flex;align-items:center;gap:8px;
+  background:rgba(201,146,42,0.12);border:1px solid rgba(201,146,42,0.3);
+  padding:6px 16px;border-radius:30px;margin-bottom:24px;
+  font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--g2);
+  animation:fadeUp 0.8s ease both;
+}
+.live-dot{width:6px;height:6px;background:#22c55e;border-radius:50%;animation:pulse 2s ease infinite;}
+@keyframes pulse{0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(34,197,94,0.4);}50%{opacity:0.7;box-shadow:0 0 0 6px rgba(34,197,94,0);}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(24px);}to{opacity:1;transform:translateY(0);}}
+.hero-name{font-family:var(--serif);font-size:clamp(42px,6vw,74px);font-weight:700;color:var(--white);line-height:1.05;animation:fadeUp 0.8s 0.1s ease both;opacity:0;}
+.hero-name span{color:var(--g2);}
+.hero-role{font-size:11px;font-weight:600;letter-spacing:4px;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:10px;animation:fadeUp 0.8s 0.2s ease both;opacity:0;}
+.hero-tagline{font-family:var(--deva);font-size:clamp(16px,2vw,19px);color:rgba(255,255,255,0.65);margin-top:22px;line-height:1.8;animation:fadeUp 0.8s 0.3s ease both;opacity:0;}
+.hero-tagline em{color:var(--g2);font-style:normal;font-weight:600;}
+
+/* HERO STATS ROW */
+.hero-stats{display:flex;gap:28px;margin-top:32px;flex-wrap:wrap;animation:fadeUp 0.8s 0.4s ease both;opacity:0;}
+.hstat{text-align:center;padding:0 16px;border-right:1px solid rgba(255,255,255,0.08);}
+.hstat:first-child{padding-left:0;}
+.hstat:last-child{border-right:none;}
+.hstat-val{font-family:var(--serif);font-size:28px;font-weight:700;color:var(--g2);}
+.hstat-lbl{font-size:10px;color:rgba(255,255,255,0.35);letter-spacing:2px;text-transform:uppercase;margin-top:3px;}
+
+/* HERO BTNS */
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px;animation:fadeUp 0.8s 0.5s ease both;opacity:0;}
+.btn-gold{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,var(--g),var(--g2));color:var(--dark);padding:15px 26px;border-radius:12px;font-weight:700;font-size:14px;text-decoration:none;transition:all 0.2s;white-space:nowrap;}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 12px 36px rgba(201,146,42,0.4);}
+.btn-outline{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.14);color:var(--white);padding:15px 26px;border-radius:12px;font-weight:600;font-size:14px;text-decoration:none;transition:all 0.2s;white-space:nowrap;}
+.btn-outline:hover{background:rgba(255,255,255,0.12);}
+.btn-wa{display:inline-flex;align-items:center;gap:8px;background:var(--wa);color:var(--white);padding:15px 26px;border-radius:12px;font-weight:700;font-size:14px;text-decoration:none;transition:all 0.2s;white-space:nowrap;}
+.btn-wa:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(37,211,102,0.35);}
+
+/* HERO RIGHT — pipeline card */
+.pipeline-card{background:rgba(255,255,255,0.04);border:1px solid rgba(201,146,42,0.2);border-radius:24px;padding:28px;backdrop-filter:blur(8px);animation:fadeUp 0.8s 0.2s ease both;opacity:0;}
+.pc-title{font-size:13px;font-weight:700;color:var(--g2);letter-spacing:2px;text-transform:uppercase;margin-bottom:20px;}
+.pc-step{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.06);}
+.pc-step:last-child{border-bottom:none;}
+.pc-num{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--c),var(--g));display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800;color:var(--white);flex-shrink:0;}
+.pc-body .pc-lbl{font-size:10px;color:rgba(255,255,255,0.4);letter-spacing:2px;text-transform:uppercase;}
+.pc-body .pc-name{font-size:14px;font-weight:600;color:var(--white);margin:3px 0;}
+.pc-body .pc-desc{font-family:var(--deva);font-size:11.5px;color:rgba(255,255,255,0.5);line-height:1.5;}
+.pc-arrow{color:rgba(201,146,42,0.4);font-size:18px;text-align:center;padding:4px 0;}
+.pc-free-badge{background:linear-gradient(135deg,var(--c),var(--g));border-radius:12px;padding:14px 18px;margin-top:16px;display:flex;align-items:center;gap:12px;}
+.pc-free-badge .pf-icon{font-size:24px;}
+.pc-free-badge .pf-text{font-family:var(--deva);font-size:13px;color:var(--white);line-height:1.5;}
+.pc-free-badge .pf-text b{color:var(--g3);}
+
+/* ════════════════════════════ TRUST STRIP ════════════════════════════ */
+.trust-strip{background:var(--d2);padding:18px 40px;}
+.trust-inner{max-width:1100px;margin:0 auto;display:flex;justify-content:center;align-items:center;gap:28px;flex-wrap:wrap;}
+.t-item{display:flex;align-items:center;gap:8px;font-size:11.5px;font-weight:600;color:rgba(255,255,255,0.5);letter-spacing:1px;text-transform:uppercase;}
+.t-item .ti{font-size:16px;}
+.t-sep{width:1px;height:20px;background:rgba(255,255,255,0.08);}
+
+/* ════════════════════════════ REFERRED BANNER ════════════════════════════ */
+#ref-banner{
+  display:none;background:linear-gradient(135deg,var(--c3),var(--c));
+  padding:14px 24px;text-align:center;
+  font-family:var(--deva);font-size:14px;color:rgba(255,255,255,0.9);
+  border-bottom:2px solid var(--g);
+}
+#ref-banner b{color:var(--g2);}
+#ref-banner .rb-btn{
+  display:inline-block;background:var(--g2);color:var(--dark);
+  padding:5px 14px;border-radius:6px;font-size:12px;font-weight:700;
+  margin-left:12px;cursor:pointer;text-decoration:none;
+}
+
+/* ════════════════════════════ SECTIONS ════════════════════════════ */
+.section{padding:80px 40px;}
+.si{max-width:1100px;margin:0 auto;}
+.sec-label{font-size:10px;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:var(--c);margin-bottom:10px;display:flex;align-items:center;gap:12px;}
+.sec-label::after{content:'';width:32px;height:1px;background:var(--g);}
+.sec-label-light{color:var(--g2);}
+.sec-label-light::after{background:var(--g2);}
+.sec-title{font-family:var(--serif);font-size:clamp(28px,4vw,46px);font-weight:700;line-height:1.2;color:var(--d2);margin-bottom:14px;}
+.sec-title em{font-style:italic;color:var(--c);}
+.sec-title-light{color:var(--white);}
+.sec-title-light em{color:var(--g2);}
+.sec-desc{font-family:var(--deva);font-size:16px;color:var(--mid);line-height:1.85;}
+.sec-desc-light{color:rgba(255,255,255,0.6);}
+.reveal{opacity:0;transform:translateY(28px);transition:all 0.7s ease;}
+.reveal.visible{opacity:1;transform:translateY(0);}
+
+/* ════════════════════════════ PAIN POINTS ════════════════════════════ */
+.pain-bg{background:var(--cream2);}
+.pain-intro{background:linear-gradient(135deg,var(--c),var(--g));border-radius:20px;padding:28px 32px;margin-bottom:28px;}
+.pain-intro-title{font-family:var(--serif);font-size:26px;font-weight:700;color:var(--white);margin-bottom:6px;}
+.pain-intro-sub{font-family:var(--deva);font-size:14px;color:rgba(255,255,255,0.8);line-height:1.7;}
+.pain-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+@media(max-width:720px){.pain-grid{grid-template-columns:1fr;}}
+@media(max-width:1000px){.pain-grid{grid-template-columns:1fr 1fr;}}
+.pain-card{background:var(--white);border-radius:16px;padding:22px;box-shadow:0 4px 20px rgba(139,0,48,0.06);border-left:3px solid var(--c);transition:all 0.25s;}
+.pain-card:hover{transform:translateY(-3px);box-shadow:0 12px 32px rgba(139,0,48,0.1);}
+.pain-emoji{font-size:26px;margin-bottom:10px;}
+.pain-hl{font-size:14px;font-weight:700;color:var(--d2);margin-bottom:6px;}
+.pain-txt{font-family:var(--deva);font-size:12px;color:var(--mid);line-height:1.7;}
+.pain-txt b{color:var(--c);}
+.pain-solution{background:linear-gradient(135deg,var(--d2),#3D0018);border-radius:16px;padding:24px 28px;margin-top:20px;display:flex;align-items:center;gap:20px;}
+.ps-icon{font-size:36px;flex-shrink:0;}
+.ps-text{font-family:var(--deva);font-size:14px;color:rgba(255,255,255,0.85);line-height:1.8;}
+.ps-text b{color:var(--g2);font-size:16px;}
+
+/* ════════════ HERO PHOTO FRAME ════════════ */
+.photo-frame{width:min(320px,80vw);position:relative;animation:fadeUp 0.8s 0.2s ease both;opacity:0;}
+.photo-frame::before{content:'';position:absolute;bottom:-24px;left:50%;transform:translateX(-50%);width:85%;height:60px;background:radial-gradient(ellipse at center,rgba(0,0,0,0.6) 0%,transparent 70%);filter:blur(12px);}
+.photo-frame img{width:100%;border-radius:22px;display:block;border:2px solid rgba(201,146,42,0.25);box-shadow:0 24px 60px rgba(0,0,0,0.65);}
+.photo-avatar{width:100%;aspect-ratio:3/4;border-radius:22px;background:linear-gradient(145deg,var(--c),#4D001A,var(--g));display:flex;flex-direction:column;align-items:center;justify-content:center;border:2px solid rgba(201,146,42,0.25);box-shadow:0 24px 60px rgba(0,0,0,0.65);}
+.photo-avatar .av-initials{font-family:var(--serif);font-size:80px;font-weight:700;color:rgba(255,255,255,0.9);line-height:1;}
+.photo-avatar .av-role{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:8px;}
+.photo-badge{position:absolute;bottom:-16px;left:50%;transform:translateX(-50%);background:linear-gradient(135deg,var(--g),var(--g2));color:var(--dark);padding:10px 24px;border-radius:40px;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;box-shadow:0 8px 24px rgba(201,146,42,0.4);white-space:nowrap;}
+.gromo-float-badge{position:absolute;top:20px;right:-12px;background:var(--white);border-radius:14px;padding:10px 14px;box-shadow:0 8px 24px rgba(0,0,0,0.4);display:flex;align-items:center;gap:8px;animation:floatBadge 3s ease infinite;}
+@keyframes floatBadge{0%,100%{transform:translateY(0);}50%{transform:translateY(-6px);}}
+.gf-icon{width:28px;height:28px;background:linear-gradient(135deg,#00A859,#00D97A);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:14px;}
+.gf-nm{font-size:11px;font-weight:700;color:var(--d2);}
+.gf-s{font-size:9px;color:var(--mid);}
+.stat-float{position:absolute;bottom:50px;left:-18px;background:var(--dark);border:1px solid rgba(201,146,42,0.3);border-radius:12px;padding:12px 14px;box-shadow:0 8px 24px rgba(0,0,0,0.4);animation:floatBadge 3.5s 0.5s ease infinite;}
+.sf-val{font-family:var(--serif);font-size:22px;font-weight:700;color:var(--g2);}
+.sf-lbl{font-size:9px;color:rgba(255,255,255,0.4);letter-spacing:1px;text-transform:uppercase;}
+.pipeline-bg{background:var(--white);}
+.pipeline-flow{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:48px;position:relative;}
+.pipeline-flow::before{content:'';position:absolute;top:44px;left:calc(12.5% + 10px);right:calc(12.5% + 10px);height:2px;background:linear-gradient(90deg,var(--c),var(--g),var(--c));opacity:0.2;}
+@media(max-width:720px){.pipeline-flow{grid-template-columns:1fr;}.pipeline-flow::before{display:none;}}
+.pf-step{text-align:center;padding:0 20px;position:relative;}
+.pf-circle{width:88px;height:88px;border-radius:50%;background:linear-gradient(135deg,var(--c),var(--g));display:flex;align-items:center;justify-content:center;font-size:32px;margin:0 auto 16px;box-shadow:0 10px 30px rgba(139,0,48,0.2);position:relative;z-index:1;transition:all 0.3s;}
+.pf-circle:hover{transform:scale(1.08);}
+.pf-stepnum{position:absolute;top:-6px;right:-6px;width:26px;height:26px;background:var(--g2);border-radius:50%;font-size:12px;font-weight:800;color:var(--d2);display:flex;align-items:center;justify-content:center;}
+.pf-title{font-size:16px;font-weight:700;color:var(--d2);margin-bottom:6px;}
+.pf-desc{font-family:var(--deva);font-size:12.5px;color:var(--mid);line-height:1.7;}
+.pf-time{display:inline-block;margin-top:8px;background:rgba(139,0,48,0.08);border-radius:20px;padding:3px 12px;font-size:10px;font-weight:700;color:var(--c);letter-spacing:1px;}
+.auto-badge{display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg,#064e3b,var(--green));border-radius:20px;padding:4px 12px;font-size:10px;font-weight:700;color:var(--white);letter-spacing:1px;margin-top:6px;}
+
+/* ════════════════════════════ SCORE EDUCATION ════════════════════════════ */
+.score-bg{background:var(--cream2);}
+.score-meter{border-radius:12px;overflow:hidden;display:flex;margin:20px 0;}
+.sm-seg{flex:1;padding:14px 10px;text-align:center;}
+.sm-val{font-size:13px;font-weight:800;color:var(--white);}
+.sm-lbl{font-size:9px;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,0.75);margin-top:3px;}
+.score-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:20px;}
+@media(max-width:640px){.score-cards{grid-template-columns:1fr;}}
+.score-card{background:var(--white);border-radius:14px;padding:20px;box-shadow:0 4px 16px rgba(139,0,48,0.06);}
+.sc-title{font-size:12px;font-weight:700;color:var(--c);letter-spacing:2px;text-transform:uppercase;margin-bottom:12px;}
+.sc-item{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid rgba(0,0,0,0.05);font-size:12.5px;}
+.sc-item:last-child{border-bottom:none;}
+.sc-item-lbl{color:var(--mid);}
+.sc-item-val{color:var(--d2);font-weight:600;}
+.sc-item-val.gold{color:var(--g);}
+.sc-item-val.red{color:var(--c);}
+.score-cta-box{background:linear-gradient(135deg,var(--c),var(--g));border-radius:18px;padding:28px 32px;margin-top:24px;display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center;}
+@media(max-width:640px){.score-cta-box{grid-template-columns:1fr;}}
+.scb-title{font-family:var(--serif);font-size:22px;font-weight:700;color:var(--white);margin-bottom:6px;}
+.scb-sub{font-family:var(--deva);font-size:13px;color:rgba(255,255,255,0.8);line-height:1.6;}
+.scb-btn{display:inline-flex;flex-direction:column;align-items:center;gap:4px;background:var(--white);color:var(--c);padding:16px 24px;border-radius:14px;font-weight:700;font-size:13px;text-decoration:none;white-space:nowrap;transition:all 0.2s;flex-shrink:0;}
+.scb-btn:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(0,0,0,0.15);}
+.scb-btn small{font-size:10px;color:var(--mid);font-weight:400;}
+
+/* ════════════════════════════ PRODUCTS ════════════════════════════ */
+.prod-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px;}
+@media(max-width:720px){.prod-grid{grid-template-columns:1fr 1fr;}}
+@media(max-width:400px){.prod-grid{grid-template-columns:1fr;}}
+.prod-card{background:var(--white);border-radius:18px;padding:24px 20px;border:1px solid rgba(0,0,0,0.06);transition:all 0.25s;cursor:default;position:relative;overflow:hidden;}
+.prod-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--c),var(--g));}
+.prod-card:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(139,0,48,0.10);}
+.prod-icon{width:50px;height:50px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:14px;}
+.prod-name{font-size:15px;font-weight:700;color:var(--d2);margin-bottom:6px;}
+.prod-desc{font-family:var(--deva);font-size:12px;color:var(--mid);line-height:1.7;margin-bottom:12px;}
+.prod-tag{display:inline-flex;padding:3px 10px;border-radius:20px;font-size:10px;font-weight:700;letter-spacing:0.5px;}
+.prod-cta{display:inline-flex;align-items:center;gap:6px;margin-top:12px;font-size:12px;font-weight:600;color:var(--c);text-decoration:none;cursor:pointer;transition:gap 0.2s;}
+.prod-cta:hover{gap:10px;}
+
+/* ════════════════════════════ WHY EKTA ════════════════════════════ */
+.why-dark{background:var(--d2);padding:80px 40px;}
+.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:40px;}
+@media(max-width:640px){.why-grid{grid-template-columns:1fr;}}
+.why-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:18px;padding:26px;display:flex;gap:16px;align-items:flex-start;transition:all 0.25s;}
+.why-card:hover{background:rgba(255,255,255,0.07);border-color:rgba(201,146,42,0.2);}
+.why-icon{width:50px;height:50px;flex-shrink:0;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:22px;}
+.why-title{font-size:15px;font-weight:700;color:var(--white);margin-bottom:6px;}
+.why-desc{font-family:var(--deva);font-size:12.5px;color:rgba(255,255,255,0.55);line-height:1.8;}
+.vs-table{width:100%;border-collapse:collapse;margin-top:36px;border-radius:16px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,0.3);}
+.vs-table th{padding:14px 18px;font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:700;text-align:left;}
+.vs-table th:nth-child(1){background:#1A1018;color:rgba(255,255,255,0.4);}
+.vs-table th:nth-child(2){background:linear-gradient(135deg,var(--c),var(--g));color:var(--white);}
+.vs-table th:nth-child(3){background:#2D2230;color:rgba(255,255,255,0.4);}
+.vs-table td{padding:12px 18px;font-family:var(--deva);font-size:12.5px;border-bottom:1px solid rgba(255,255,255,0.06);}
+.vs-table td:nth-child(1){background:#111;color:rgba(255,255,255,0.75);font-weight:600;}
+.vs-table td:nth-child(2){background:rgba(139,0,48,0.12);color:#6EE7B7;font-weight:600;}
+.vs-table td:nth-child(3){background:rgba(255,255,255,0.03);color:rgba(255,255,255,0.4);}
+
+/* ════════════════════════════ TESTIMONIALS ════════════════════════════ */
+.testi-bg{background:var(--dark);padding:80px 40px;}
+.testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:40px;}
+@media(max-width:700px){.testi-grid{grid-template-columns:1fr;}}
+.testi-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.07);border-radius:18px;padding:24px;transition:all 0.25s;}
+.testi-card:hover{background:rgba(255,255,255,0.07);border-color:rgba(201,146,42,0.2);}
+.testi-stars{color:var(--g2);font-size:14px;letter-spacing:2px;margin-bottom:12px;}
+.testi-text{font-family:var(--deva);font-size:13px;color:rgba(255,255,255,0.75);line-height:1.9;margin-bottom:16px;font-style:italic;}
+.testi-result{background:rgba(16,185,129,0.12);border-radius:8px;padding:8px 12px;font-size:11px;color:#6EE7B7;font-weight:600;margin-bottom:14px;}
+.testi-name{font-weight:700;color:var(--g2);font-size:13px;}
+.testi-role{font-family:var(--deva);font-size:11px;color:rgba(255,255,255,0.3);margin-top:3px;}
+
+/* ════════════════════════════ REFER & EARN ════════════════════════════ */
+.refer-bg{background:linear-gradient(145deg,var(--dark) 0%,#250010 50%,var(--dark) 100%);padding:80px 40px;position:relative;overflow:hidden;}
+.refer-bg::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(201,146,42,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(201,146,42,0.04) 1px,transparent 1px);background-size:44px 44px;}
+.refer-inner{max-width:1100px;margin:0 auto;position:relative;z-index:1;}
+.refer-header{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;margin-bottom:48px;}
+@media(max-width:720px){.refer-header{grid-template-columns:1fr;}}
+.refer-how{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:40px;}
+@media(max-width:700px){.refer-how{grid-template-columns:1fr;}}
+.rh-step{text-align:center;padding:24px 20px;background:rgba(255,255,255,0.04);border:1px solid rgba(201,146,42,0.15);border-radius:16px;}
+.rh-ico{font-size:32px;margin-bottom:12px;}
+.rh-num{font-size:11px;font-weight:700;color:var(--g2);letter-spacing:2px;text-transform:uppercase;margin-bottom:6px;}
+.rh-title{font-size:14px;font-weight:700;color:var(--white);margin-bottom:6px;}
+.rh-desc{font-family:var(--deva);font-size:12px;color:rgba(255,255,255,0.5);line-height:1.6;}
+/* Referral Code Generator */
+.ref-gen-card{background:rgba(255,255,255,0.05);border:1px solid rgba(201,146,42,0.25);border-radius:20px;padding:32px;}
+.ref-gen-title{font-size:18px;font-weight:700;color:var(--white);margin-bottom:6px;}
+.ref-gen-sub{font-family:var(--deva);font-size:13px;color:rgba(255,255,255,0.55);margin-bottom:24px;line-height:1.6;}
+.ref-input-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px;}
+@media(max-width:500px){.ref-input-row{grid-template-columns:1fr;}}
+.ref-input{width:100%;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:12px 16px;font-size:14px;color:var(--white);font-family:var(--deva);outline:none;transition:border-color 0.2s;}
+.ref-input:focus{border-color:rgba(201,146,42,0.5);}
+.ref-input::placeholder{color:rgba(255,255,255,0.25);}
+.ref-gen-btn{width:100%;background:linear-gradient(135deg,var(--c),var(--g));color:var(--white);border:none;border-radius:10px;padding:14px;font-size:14px;font-weight:700;cursor:pointer;transition:all 0.2s;font-family:var(--deva);}
+.ref-gen-btn:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(139,0,48,0.3);}
+/* Generated code display */
+#ref-result{display:none;margin-top:20px;}
+.ref-code-display{background:rgba(201,146,42,0.1);border:2px solid rgba(201,146,42,0.4);border-radius:12px;padding:16px 20px;margin-bottom:12px;}
+.rcd-label{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--g2);margin-bottom:6px;font-weight:700;}
+.rcd-code{font-size:22px;font-weight:800;color:var(--white);letter-spacing:3px;font-family:monospace;}
+.ref-link-row{display:flex;gap:8px;align-items:center;}
+.ref-link-input{flex:1;background:rgba(0,0,0,0.3);border:1px solid rgba(255,255,255,0.1);border-radius:8px;padding:10px 14px;font-size:11.5px;color:rgba(255,255,255,0.7);font-family:monospace;outline:none;}
+.ref-copy-btn{background:var(--g);color:var(--dark);border:none;border-radius:8px;padding:10px 16px;font-size:12px;font-weight:700;cursor:pointer;white-space:nowrap;}
+.ref-share-row{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap;}
+.ref-share-btn{flex:1;display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:10px 14px;border-radius:10px;font-size:13px;font-weight:700;text-decoration:none;cursor:pointer;border:none;transition:all 0.2s;min-width:100px;}
+.rsb-wa{background:var(--wa);color:var(--white);}
+.rsb-copy{background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);color:var(--white);}
+/* Reward info */
+.reward-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:32px;}
+@media(max-width:640px){.reward-grid{grid-template-columns:repeat(3,1fr);}}
+.reward-chip{background:rgba(255,255,255,0.05);border:1px solid rgba(201,146,42,0.2);border-radius:10px;padding:12px 8px;text-align:center;}
+.rc-val{font-size:16px;font-weight:800;color:var(--g2);}
+.rc-lbl{font-size:9px;color:rgba(255,255,255,0.35);text-transform:uppercase;letter-spacing:1px;margin-top:3px;}
+/* Referral dashboard */
+#ref-dashboard{display:none;}
+.ref-dash-card{background:rgba(255,255,255,0.05);border:1px solid rgba(201,146,42,0.2);border-radius:16px;padding:24px;margin-top:24px;}
+.ref-dash-title{font-size:14px;font-weight:700;color:var(--g2);margin-bottom:16px;letter-spacing:1px;text-transform:uppercase;}
+.ref-dash-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+.rds-item{text-align:center;padding:16px;background:rgba(0,0,0,0.2);border-radius:10px;}
+.rds-val{font-size:24px;font-weight:800;color:var(--white);}
+.rds-lbl{font-size:9px;color:rgba(255,255,255,0.4);text-transform:uppercase;letter-spacing:1px;margin-top:4px;}
+
+/* ════════════════════════════ FAQ ════════════════════════════ */
+.faq-bg{background:var(--white);}
+.faq-list{display:flex;flex-direction:column;gap:10px;margin-top:40px;}
+.faq-item{background:var(--cream);border:1px solid rgba(0,0,0,0.06);border-radius:14px;overflow:hidden;cursor:pointer;transition:border-color 0.2s;}
+.faq-item.open{border-color:rgba(139,0,48,0.25);}
+.faq-q{padding:18px 22px;display:flex;align-items:center;justify-content:space-between;font-family:var(--deva);font-size:14px;font-weight:600;color:var(--d2);gap:12px;user-select:none;}
+.faq-arr{font-size:11px;color:var(--mid);transition:transform 0.25s;flex-shrink:0;}
+.faq-item.open .faq-arr{transform:rotate(180deg);color:var(--c);}
+.faq-a{display:none;padding:0 22px 18px;font-family:var(--deva);font-size:13px;color:var(--mid);line-height:1.9;}
+.faq-a b{color:var(--c);}
+.faq-item.open .faq-a{display:block;}
+
+/* ════════════════════════════ FINAL CTA ════════════════════════════ */
+.cta-section{background:linear-gradient(145deg,var(--dark) 0%,var(--c3) 50%,var(--dark) 100%);padding:80px 40px;text-align:center;position:relative;overflow:hidden;}
+.cta-section::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(201,146,42,0.05) 1px,transparent 1px),linear-gradient(90deg,rgba(201,146,42,0.05) 1px,transparent 1px);background-size:48px 48px;}
+.cta-inner{position:relative;max-width:720px;margin:0 auto;}
+.cta-headline{font-family:var(--serif);font-size:clamp(28px,5vw,52px);font-weight:700;color:var(--white);line-height:1.2;margin-bottom:16px;}
+.cta-headline span{color:var(--g2);}
+.cta-sub{font-family:var(--deva);font-size:17px;color:rgba(255,255,255,0.6);line-height:1.8;margin-bottom:36px;}
+.cta-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;}
+.wa-msg-preview{background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:18px 24px;margin-top:24px;text-align:left;}
+.wmp-label{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-bottom:8px;}
+.wmp-text{font-family:var(--deva);font-size:13px;color:rgba(255,255,255,0.7);line-height:1.8;}
+.wmp-text code{background:rgba(201,146,42,0.15);padding:0 4px;border-radius:4px;color:var(--g2);}
+
+/* ════════════════════════════ CONTACT CARD ════════════════════════════ */
+.contact-section{background:var(--cream2);padding:60px 40px;}
+.contact-inner{max-width:700px;margin:0 auto;}
+.contact-card{background:var(--white);border-radius:28px;overflow:hidden;box-shadow:var(--shadow);}
+.cc-header{background:linear-gradient(135deg,var(--d2),var(--c));padding:36px 40px;position:relative;overflow:hidden;}
+.cc-header::after{content:'';position:absolute;bottom:-40px;right:-40px;width:160px;height:160px;border-radius:50%;background:rgba(201,146,42,0.1);}
+.cc-name{font-family:var(--serif);font-size:38px;font-weight:700;color:var(--white);}
+.cc-name span{color:var(--g2);}
+.cc-role{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:6px;}
+.cc-body{padding:32px 40px;}
+.cc-row{display:flex;align-items:center;gap:14px;padding:12px 0;border-bottom:1px solid rgba(0,0,0,0.06);}
+.cc-row:last-child{border-bottom:none;}
+.cc-icon{width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg,var(--c),var(--c2));display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;}
+.cc-text{font-size:15px;font-weight:500;color:var(--d3);}
+.cc-sub{font-size:11px;color:var(--mid);margin-top:2px;}
+.cc-links{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px;}
+.cc-link{display:flex;flex-direction:column;gap:4px;background:linear-gradient(135deg,var(--c),var(--c2));color:var(--white);border-radius:12px;padding:14px 18px;text-decoration:none;font-size:12px;font-weight:600;transition:all 0.2s;}
+.cc-link:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(139,0,48,0.25);}
+.cc-link.gold{background:linear-gradient(135deg,var(--g),var(--g2));color:var(--dark);}
+.cc-link-label{font-size:9px;letter-spacing:2px;text-transform:uppercase;opacity:0.7;}
+
+/* ════════════════════════════ FOOTER ════════════════════════════ */
+footer{background:var(--dark);padding:40px;text-align:center;}
+.ft{font-family:var(--serif);font-size:22px;font-style:italic;color:rgba(255,255,255,0.2);margin-bottom:12px;}
+.ft span{color:var(--g2);}
+.fdiv{width:60px;height:1px;background:linear-gradient(90deg,transparent,var(--g),transparent);margin:0 auto 14px;}
+.flinks{display:flex;justify-content:center;gap:24px;flex-wrap:wrap;margin-bottom:14px;}
+.flinks a{color:rgba(255,255,255,0.35);font-size:12px;text-decoration:none;font-family:var(--deva);transition:color 0.2s;}
+.flinks a:hover{color:var(--g2);}
+.fcopy{font-size:11px;color:rgba(255,255,255,0.12);}
+
+/* ════════════════════════════ FLOATING WA ════════════════════════════ */
+.wa-float-wrap{position:fixed;bottom:24px;right:24px;z-index:300;display:flex;flex-direction:column;align-items:flex-end;gap:10px;}
+.wa-float{width:58px;height:58px;background:var(--wa);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;box-shadow:0 8px 28px rgba(37,211,102,0.45);text-decoration:none;transition:all 0.25s;animation:floatBtn 3s ease infinite;cursor:pointer;border:none;}
+@keyframes floatBtn{0%,100%{transform:translateY(0);}50%{transform:translateY(-5px);}}
+.wa-float:hover{transform:scale(1.1) !important;}
+.wa-popup{display:none;background:var(--white);border-radius:18px;box-shadow:0 20px 60px rgba(0,0,0,0.2);width:300px;overflow:hidden;border:1px solid rgba(0,0,0,0.08);}
+.wa-popup.show{display:block;}
+.wp-header{background:linear-gradient(135deg,var(--d2),#3D0015);padding:16px 18px;display:flex;align-items:center;gap:12px;}
+.wp-avatar{width:40px;height:40px;background:linear-gradient(135deg,var(--c),var(--g));border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:800;color:var(--white);flex-shrink:0;}
+.wp-name{font-size:14px;font-weight:700;color:var(--white);}
+.wp-status{font-size:11px;color:#6EE7B7;}
+.wp-body{padding:16px;}
+.wp-msg{background:var(--cream);border-radius:12px 12px 4px 12px;padding:12px 14px;font-family:var(--deva);font-size:13px;color:var(--d2);line-height:1.7;margin-bottom:12px;}
+.wp-quick{display:flex;flex-direction:column;gap:6px;}
+.wpq-btn{background:var(--cream2);border:1px solid rgba(0,0,0,0.08);border-radius:8px;padding:10px 14px;font-family:var(--deva);font-size:12.5px;color:var(--d2);cursor:pointer;text-align:left;transition:all 0.15s;text-decoration:none;display:block;}
+.wpq-btn:hover{background:rgba(139,0,48,0.06);border-color:rgba(139,0,48,0.2);}
+.wp-open-btn{display:block;background:var(--wa);color:var(--white);text-align:center;padding:12px;font-weight:700;font-size:13px;text-decoration:none;margin-top:12px;border-radius:10px;transition:all 0.2s;}
+.wp-open-btn:hover{background:#128c7e;}
+.wa-label{background:var(--d2);color:var(--white);padding:6px 12px;border-radius:20px;font-size:11px;font-weight:600;display:inline-block;}
+
+/* ════════════════════════════ CHATBOT WIDGET ════════════════════════════ */
+.chatbot-wrap{position:fixed;bottom:24px;left:24px;z-index:300;}
+.chatbot-btn{width:52px;height:52px;background:linear-gradient(135deg,var(--c),var(--g));border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:22px;cursor:pointer;box-shadow:0 8px 24px rgba(139,0,48,0.35);border:none;transition:all 0.25s;animation:floatBtn 3.5s 0.5s ease infinite;}
+.chatbot-btn:hover{transform:scale(1.1) !important;}
+.chatbot-panel{display:none;position:absolute;bottom:64px;left:0;width:320px;background:var(--white);border-radius:18px;box-shadow:0 20px 60px rgba(0,0,0,0.18);overflow:hidden;border:1px solid rgba(0,0,0,0.08);}
+.chatbot-panel.show{display:block;}
+.cb-header{background:linear-gradient(135deg,var(--c),var(--g));padding:14px 18px;display:flex;align-items:center;justify-content:space-between;}
+.cb-header-left{display:flex;align-items:center;gap:10px;}
+.cb-avatar{width:36px;height:36px;background:rgba(255,255,255,0.2);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:18px;}
+.cb-title{font-size:14px;font-weight:700;color:var(--white);}
+.cb-status{font-size:10px;color:rgba(255,255,255,0.7);}
+.cb-close{background:none;border:none;color:rgba(255,255,255,0.7);font-size:18px;cursor:pointer;padding:2px;}
+.cb-body{height:320px;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:10px;}
+.cb-msg{max-width:85%;}
+.cb-msg.bot{align-self:flex-start;}
+.cb-msg.user{align-self:flex-end;}
+.cb-bubble{padding:10px 14px;border-radius:14px;font-family:var(--deva);font-size:12.5px;line-height:1.7;}
+.cb-msg.bot .cb-bubble{background:var(--cream2);color:var(--d2);border-radius:4px 14px 14px 14px;}
+.cb-msg.user .cb-bubble{background:linear-gradient(135deg,var(--c),var(--g));color:var(--white);border-radius:14px 4px 14px 14px;}
+.cb-options{display:flex;flex-direction:column;gap:6px;margin-top:4px;}
+.cb-opt{background:var(--cream2);border:1px solid rgba(0,0,0,0.07);border-radius:8px;padding:8px 12px;font-family:var(--deva);font-size:12px;color:var(--d2);cursor:pointer;text-align:left;transition:all 0.15s;border:none;}
+.cb-opt:hover{background:rgba(139,0,48,0.06);}
+.cb-footer{padding:12px 14px;border-top:1px solid rgba(0,0,0,0.06);}
+.cb-input-row{display:flex;gap:8px;}
+.cb-input{flex:1;background:var(--cream);border:1px solid rgba(0,0,0,0.08);border-radius:8px;padding:9px 12px;font-size:13px;font-family:var(--deva);outline:none;color:var(--d2);}
+.cb-send{background:linear-gradient(135deg,var(--c),var(--g));color:var(--white);border:none;border-radius:8px;padding:9px 14px;cursor:pointer;font-size:14px;}
+/* ── Groq AI Chatbot Upgrade ── */
+.cb-typing{display:flex;gap:4px;align-items:center;padding:10px 14px;}
+.cb-typing span{width:7px;height:7px;background:var(--c);border-radius:50%;animation:typingDot 1.2s ease infinite;}
+.cb-typing span:nth-child(2){animation-delay:0.2s;}
+.cb-typing span:nth-child(3){animation-delay:0.4s;}
+@keyframes typingDot{0%,80%,100%{transform:scale(0.6);opacity:0.4;}40%{transform:scale(1);opacity:1;}}
+.cb-ai-badge{display:flex;align-items:center;gap:6px;background:rgba(201,146,42,0.1);border:1px solid rgba(201,146,42,0.25);border-radius:8px;padding:5px 10px;font-size:10px;color:var(--g);font-weight:600;margin:4px 14px 0;cursor:pointer;}
+.cb-ai-badge .ai-dot{width:5px;height:5px;background:var(--g);border-radius:50%;animation:pulse 2s ease infinite;}
+#groq-modal-cb{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.72);z-index:9000;backdrop-filter:blur(4px);align-items:center;justify-content:center;}
+#groq-modal-cb.on{display:flex;}
+.gcb-box{background:var(--white);border-radius:20px;padding:28px;width:min(400px,92vw);box-shadow:0 32px 80px rgba(0,0,0,0.3);}
+.gcb-title{font-family:var(--serif);font-size:22px;font-weight:700;color:var(--d2);margin-bottom:4px;}
+.gcb-sub{font-family:var(--deva);font-size:13px;color:var(--mid);line-height:1.8;margin-bottom:16px;}
+.gcb-input{width:100%;background:var(--cream);border:1px solid rgba(0,0,0,0.1);border-radius:10px;padding:11px 14px;font-size:12px;outline:none;font-family:monospace;margin-bottom:12px;transition:border-color 0.2s;}
+.gcb-input:focus{border-color:var(--c);}
+.gcb-save{width:100%;background:linear-gradient(135deg,var(--c),var(--g));color:var(--white);border:none;border-radius:10px;padding:13px;font-size:14px;font-weight:700;cursor:pointer;transition:all 0.2s;}
+.gcb-save:hover{transform:translateY(-1px);box-shadow:0 8px 22px rgba(139,0,48,0.2);}
+.gcb-cancel{width:100%;background:none;border:1px solid rgba(0,0,0,0.1);border-radius:10px;padding:10px;font-size:13px;color:var(--mid);cursor:pointer;margin-top:8px;}
+
+/* ════════════════════════════ TOAST ════════════════════════════ */
+#toast{position:fixed;bottom:100px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--d2);color:var(--white);padding:12px 24px;border-radius:10px;font-size:13px;font-family:var(--deva);opacity:0;transition:all 0.35s;pointer-events:none;z-index:9999;border-left:3px solid var(--g2);}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+
+/* ════════════════════════════ MOBILE NAV ════════════════════════════ */
+.mob-nav-fixed{position:fixed;bottom:0;left:0;right:0;z-index:400;background:rgba(15,10,13,0.97);backdrop-filter:blur(16px);border-top:1px solid rgba(201,146,42,0.15);padding:10px 16px;display:none;}
+@media(max-width:640px){.mob-nav-fixed{display:flex;gap:8px;}}
+.mnf-btn{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;background:rgba(255,255,255,0.05);border-radius:10px;padding:8px 4px;text-decoration:none;font-size:9px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,0.5);transition:all 0.2s;border:none;cursor:pointer;}
+.mnf-btn.primary{background:linear-gradient(135deg,var(--c),var(--g));color:var(--white);}
+.mnf-btn.wa{background:rgba(37,211,102,0.15);color:var(--wa);}
+.mnf-ico{font-size:18px;}
+
+/* ════════════════════════════ CONFETTI ════════════════════════════ */
+.confetti-piece{position:fixed;width:8px;height:8px;border-radius:2px;pointer-events:none;z-index:9999;animation:confettiFall 2.5s ease-out forwards;}
+@keyframes confettiFall{0%{transform:translateY(-20px) rotate(0deg);opacity:1;}100%{transform:translateY(100vh) rotate(720deg);opacity:0;}}
+
+</style>
+</head>
+<body>
+
+<!-- Progress Bar -->
+<div id="progress-bar" style="width:0%"></div>
+
+<!-- ═══════════════════════════ TOPBAR ═══════════════════════════ -->
+<div class="topbar">
+  <b>Gromo Financial Solutions</b> &nbsp;|&nbsp; RBI Regulated &nbsp;|&nbsp; 50+ Banks &nbsp;|&nbsp; 100% Free Consultation &nbsp;|&nbsp;
+  <a href="#refer">🎁 Refer करें → ₹100-₹1000 Earn करें</a>
+</div>
+
+<!-- Referred-by Banner (shown via JS) -->
+<div id="ref-banner">
+  🎉 आपको <b id="ref-banner-name">एक दोस्त</b> ने refer किया है!
+  उनकी वजह से आप यहाँ हैं — <b>एक special priority service मिलेगी आपको।</b>
+  <a href="#credits" class="rb-btn">Free Check करें →</a>
+</div>
+
+<!-- ═══════════════════════════ NAV ═══════════════════════════ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="nav-brand">Ekta <span>Sharma</span></div>
+    <div class="nav-links">
+      <a href="#products">Products</a>
+      <a href="#how">Process</a>
+      <a href="#refer">Refer & Earn</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <div style="display:flex;gap:8px;align-items:center;">
+      <span class="nav-refer" onclick="document.getElementById('refer').scrollIntoView({behavior:'smooth'})">🎁 Earn ₹1000</span>
+      <a href="https://sales.gromo.in/c/X07qi0y8YkI3M7Z9TyhXd" class="nav-cta" target="_blank">🔗 Free Score Check</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+<section class="hero" id="home">
+  <div class="hero-bg1"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-orb"></div>
+  <div class="hero-inner">
+    <div>
+      <div class="hero-badge"><span class="live-dot"></span> Gromo Verified Financial Advisor</div>
+      <h1 class="hero-name">Ekta <span>Sharma</span></h1>
+      <div class="hero-role">Financial Solutions Expert • Gromo Financial • Delhi NCR</div>
+      <div class="hero-tagline">
+        आपकी <em>Financial Journey</em> — मेरी Responsibility<br>
+        Free Credit Score Check → Best Product → <em>Financial Freedom</em>
+      </div>
+      <div class="hero-stats">
+        <div class="hstat"><div class="hstat-val" id="stat-banks">50+</div><div class="hstat-lbl">Banks</div></div>
+        <div class="hstat"><div class="hstat-val">FREE</div><div class="hstat-lbl">Consultation</div></div>
+        <div class="hstat"><div class="hstat-val">2 Min</div><div class="hstat-lbl">Process</div></div>
+        <div class="hstat"><div class="hstat-val">₹0</div><div class="hstat-lbl">Charge</div></div>
+      </div>
+      <div class="hero-btns">
+        <a href="https://sales.gromo.in/c/X07qi0y8YkI3M7Z9TyhXd" class="btn-gold" target="_blank">🔗 Free Credit Score Check</a>
+        <a href="https://wa.me/919821519049?text=Namaste%20Ekta%20Ji!%20Main%20apna%20Credit%20Score%20check%20karna%20chahta%20hoon.%20Please%20help%20karein." class="btn-wa" target="_blank">💬 WhatsApp करें</a>
+        <a href="https://sales.gromo.in/gp-website/g/X07qi0y8YkI3M7Z9TyhXd" class="btn-outline" target="_blank">🌐 All Products</a>
+      </div>
+    </div>
+    <div class="hero-right-col">
+      <div class="photo-frame">
+        <!-- Ekta Ji ki photo yahan aayegi. Filhaal beautiful avatar. -->
+        <!-- Photo add karne ke liye: <img src="ekta-photo.jpg" alt="Ekta Sharma"> uncomment karein -->
+        <div class="photo-avatar">
+          <div class="av-initials">ES</div>
+          <div class="av-role">Financial Advisor</div>
+        </div>
+        <div class="photo-badge">✨ Gromo Verified</div>
+        <div class="gromo-float-badge">
+          <div class="gf-icon">🏦</div>
+          <div><div class="gf-nm">Gromo Partner</div><div class="gf-s">50+ Banks Network</div></div>
+        </div>
+        <div class="stat-float">
+          <div class="sf-val">FREE</div>
+          <div class="sf-lbl">Consultation</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ TRUST STRIP ═══════════════════════════ -->
+<div class="trust-strip">
+  <div class="trust-inner">
+    <div class="t-item"><span class="ti">🏦</span>SBI, HDFC, Axis</div>
+    <div class="t-sep"></div>
+    <div class="t-item"><span class="ti">🛡️</span>RBI Regulated</div>
+    <div class="t-sep"></div>
+    <div class="t-item"><span class="ti">🆓</span>100% Free</div>
+    <div class="t-sep"></div>
+    <div class="t-item"><span class="ti">🔒</span>Data Secure</div>
+    <div class="t-sep"></div>
+    <div class="t-item"><span class="ti">⚡</span>2 Min Process</div>
+    <div class="t-sep"></div>
+    <div class="t-item"><span class="ti">📍</span>All India Service</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════ PAIN POINTS ═══════════════════════════ -->
+<section class="section pain-bg" id="pain">
+  <div class="si">
+    <div class="sec-label">Common Problems</div>
+    <h2 class="sec-title">क्या आप भी इन <em>Problems</em> से परेशान हैं?</h2>
+    <div class="pain-intro reveal">
+      <div class="pain-intro-title">आप अकेले नहीं हैं — यही होता है सही जानकारी के बिना</div>
+      <div class="pain-intro-sub">हर दिन हज़ारों लोग गलत bank, गलत product, गलत time पर apply करके reject होते हैं। Ekta Ji का एक काम है — यह बंद करना।</div>
+    </div>
+    <div class="pain-grid reveal">
+      <div class="pain-card">
+        <div class="pain-emoji">😤</div>
+        <div class="pain-hl">Loan/Card के लिए Reject हुए</div>
+        <div class="pain-txt">बिना eligibility जाने apply किया — reject हुए — <b>CIBIL score और नीचे</b> चला गया। Rejection से rejection।</div>
+      </div>
+      <div class="pain-card">
+        <div class="pain-emoji">😰</div>
+        <div class="pain-hl">Credit Score खराब हो रहा है</div>
+        <div class="pain-txt">Score कब गिरा, क्यों गिरा — <b>पता ही नहीं चला।</b> अब कोई product approve नहीं होता।</div>
+      </div>
+      <div class="pain-card">
+        <div class="pain-emoji">🤯</div>
+        <div class="pain-hl">कौन सा Card/Loan सही है?</div>
+        <div class="pain-txt">इतने options — <b>compare करना impossible लगता है।</b> गलत card लिया तो benefit नहीं।</div>
+      </div>
+      <div class="pain-card">
+        <div class="pain-emoji">💸</div>
+        <div class="pain-hl">ज़्यादा Interest दे रहे हो</div>
+        <div class="pain-txt">आपके existing loan से <b>2-3% कम rate</b> कहीं और मिल सकता था — किसी ने बताया नहीं।</div>
+      </div>
+      <div class="pain-card">
+        <div class="pain-emoji">😕</div>
+        <div class="pain-hl">Credit Score पता ही नहीं</div>
+        <div class="pain-txt">Score check करने के लिए पैसे देने पड़ते हैं — <b>ऐसा लगता है।</b> Actually free है।</div>
+      </div>
+      <div class="pain-card">
+        <div class="pain-emoji">🏦</div>
+        <div class="pain-hl">Bank पूरी बात नहीं बताते</div>
+        <div class="pain-txt">Bank एक ही product push करता है। <b>आपके लिए best क्या है</b> — यह कोई नहीं बताता।</div>
+      </div>
+    </div>
+    <div class="pain-solution reveal">
+      <div class="ps-icon">💡</div>
+      <div class="ps-text">
+        <b>इन सभी problems का एक solution:</b> एक trusted advisor जो आपकी profile देखकर guide करे। Ekta Sharma — Free Consultation, Honest Advice, Best Results.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ PIPELINE VISUAL ═══════════════════════════ -->
+<section class="section pipeline-bg" id="how">
+  <div class="si">
+    <div class="sec-label">Automatic Process</div>
+    <h2 class="sec-title">4 Steps — Score Check से <em>Approval तक</em></h2>
+    <div class="sec-desc">सब कुछ automatic और guided। जहाँ confuse होगे — Ekta Ji साथ देंगी। बाकी सब 99% automatic।</div>
+    <div class="pipeline-flow reveal">
+      <div class="pf-step">
+        <div class="pf-circle">🔗<div class="pf-stepnum">1</div></div>
+        <div class="pf-title">Free Link Click</div>
+        <div class="pf-desc">Ekta Ji आपको free credit score link share करती हैं — एक click और आप शुरू।</div>
+        <div class="pf-time">30 Seconds</div>
+        <div class="auto-badge">⚡ Auto</div>
+      </div>
+      <div class="pf-step">
+        <div class="pf-circle">📋<div class="pf-stepnum">2</div></div>
+        <div class="pf-title">Basic Details Fill</div>
+        <div class="pf-desc">Name, Phone, DOB, PAN — बस इतना। कोई bank password, कोई OTP नहीं।</div>
+        <div class="pf-time">2 Minutes</div>
+        <div class="auto-badge">🤖 Guided</div>
+      </div>
+      <div class="pf-step">
+        <div class="pf-circle">📊<div class="pf-stepnum">3</div></div>
+        <div class="pf-title">Score + Eligibility</div>
+        <div class="pf-desc">Instant CIBIL report + eligible products list। Screenshot लो, Ekta Ji को भेजो।</div>
+        <div class="pf-time">Instant</div>
+        <div class="auto-badge">⚡ Auto</div>
+      </div>
+      <div class="pf-step">
+        <div class="pf-circle">✅<div class="pf-stepnum">4</div></div>
+        <div class="pf-title">Personal Guidance</div>
+        <div class="pf-desc">Ekta Ji personally best option suggest करेंगी। Apply करें → Approve हो।</div>
+        <div class="pf-time">Same Day</div>
+        <div class="auto-badge">👩‍💼 Personal</div>
+      </div>
+    </div>
+    <!-- MAIN CTA -->
+    <div id="credits" class="score-cta-box reveal">
+      <div>
+        <div class="scb-title">अभी शुरू करें — बिलकुल Free</div>
+        <div class="scb-sub">2 minute में जानिए — आपकी profile पर क्या approve होगा, क्या नहीं। कोई commitment नहीं।</div>
+      </div>
+      <a href="https://sales.gromo.in/c/X07qi0y8YkI3M7Z9TyhXd" class="scb-btn" target="_blank">
+        🎯 Free Score Check
+        <small>No OTP · No Charge · 100% Safe</small>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ SCORE EDUCATION ═══════════════════════════ -->
+<section class="section score-bg">
+  <div class="si">
+    <div class="sec-label">Financial Education</div>
+    <h2 class="sec-title">Credit Score — <em>आपकी Financial Report Card</em></h2>
+    <div class="sec-desc">यह score decide करता है — Loan मिलेगा या नहीं, कितना Interest लगेगा, कौन सा Card approve होगा।</div>
+    <div class="score-meter reveal" style="margin-top:24px;">
+      <div class="sm-seg" style="background:#CC2233;"><div class="sm-val">300-549</div><div class="sm-lbl">Poor</div></div>
+      <div class="sm-seg" style="background:#E07020;"><div class="sm-val">550-649</div><div class="sm-lbl">Fair</div></div>
+      <div class="sm-seg" style="background:#A0A020;"><div class="sm-val">650-749</div><div class="sm-lbl">Good</div></div>
+      <div class="sm-seg" style="background:#22A050;"><div class="sm-val">750-799</div><div class="sm-lbl">Great</div></div>
+      <div class="sm-seg" style="background:#1A6030;"><div class="sm-val">800-900</div><div class="sm-lbl">Excellent</div></div>
+    </div>
+    <div class="score-cards reveal">
+      <div class="score-card">
+        <div class="sc-title">Score से क्या मिलता है?</div>
+        <div class="sc-item"><span class="sc-item-lbl">750+ Score</span><span class="sc-item-val gold">Premium Cards + Best Rates</span></div>
+        <div class="sc-item"><span class="sc-item-lbl">700-749</span><span class="sc-item-val">Good Cards, Standard Rates</span></div>
+        <div class="sc-item"><span class="sc-item-lbl">650-699</span><span class="sc-item-val">Limited Options, Higher Rate</span></div>
+        <div class="sc-item"><span class="sc-item-lbl">Below 650</span><span class="sc-item-val red">Secured Card Path</span></div>
+      </div>
+      <div class="score-card">
+        <div class="sc-title">Score किससे बनता है?</div>
+        <div class="sc-item"><span class="sc-item-lbl">Payment History</span><span class="sc-item-val gold">35%</span></div>
+        <div class="sc-item"><span class="sc-item-lbl">Credit Utilization</span><span class="sc-item-val gold">30%</span></div>
+        <div class="sc-item"><span class="sc-item-lbl">Credit Age</span><span class="sc-item-val">15%</span></div>
+        <div class="sc-item"><span class="sc-item-lbl">Credit Mix + Inquiries</span><span class="sc-item-val">20%</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ PRODUCTS ═══════════════════════════ -->
+<section class="section" id="products" style="background:var(--white);">
+  <div class="si">
+    <div class="sec-label">Services Portfolio</div>
+    <h2 class="sec-title">आपकी हर <em>Financial ज़रूरत</em> — एक जगह</h2>
+    <div class="prod-grid reveal">
+      <div class="prod-card" onclick="openWAForProduct('Credit Card')">
+        <div class="prod-icon" style="background:rgba(139,0,48,0.08);">💳</div>
+        <div class="prod-name">Credit Cards</div>
+        <div class="prod-desc">SBI, HDFC, Axis, ICICI, IDFC — आपकी spending habit के हिसाब से best card। Cashback, travel, shopping benefits।</div>
+        <div class="prod-tag" style="background:rgba(139,0,48,0.08);color:var(--c);">10+ Banks</div>
+        <div class="prod-cta">Best Card देखें →</div>
+      </div>
+      <div class="prod-card" onclick="openWAForProduct('Personal Loan')">
+        <div class="prod-icon" style="background:rgba(201,146,42,0.1);">💰</div>
+        <div class="prod-name">Personal Loan</div>
+        <div class="prod-desc">Medical, education, wedding — quick approval, lowest interest। 24-72 hours में disbursement।</div>
+        <div class="prod-tag" style="background:rgba(201,146,42,0.1);color:var(--g);">Instant Approval</div>
+        <div class="prod-cta">Eligibility Check →</div>
+      </div>
+      <div class="prod-card" onclick="openWAForProduct('Business Loan')">
+        <div class="prod-icon" style="background:rgba(26,122,60,0.1);">🏢</div>
+        <div class="prod-name">Business Loan</div>
+        <div class="prod-desc">MSMEs, shop owners, freelancers। Working capital से expansion — collateral-free options भी।</div>
+        <div class="prod-tag" style="background:rgba(26,122,60,0.1);color:var(--green);">MSME Friendly</div>
+        <div class="prod-cta">Apply करें →</div>
+      </div>
+      <div class="prod-card" onclick="openWAForProduct('Demat Account')">
+        <div class="prod-icon" style="background:rgba(59,130,246,0.1);">📈</div>
+        <div class="prod-name">Demat & Trading</div>
+        <div class="prod-desc">Stock market mein invest karein। Best brokerage rates पर Demat account — direct market access।</div>
+        <div class="prod-tag" style="background:rgba(59,130,246,0.1);color:#3B82F6;">Zero Brokerage</div>
+        <div class="prod-cta">Account खोलें →</div>
+      </div>
+      <div class="prod-card" onclick="openWAForProduct('Mutual Fund / SIP')">
+        <div class="prod-icon" style="background:rgba(139,0,48,0.08);">📊</div>
+        <div class="prod-name">Mutual Funds / SIP</div>
+        <div class="prod-desc">₹500/month से शुरू। Long-term wealth creation। Risk appetite के हिसाब से — aggressive, balanced, या conservative।</div>
+        <div class="prod-tag" style="background:rgba(139,0,48,0.08);color:var(--c);">₹500 से शुरू</div>
+        <div class="prod-cta">Investment Plan →</div>
+      </div>
+      <div class="prod-card" onclick="openWAForProduct('Credit Score Improvement')">
+        <div class="prod-icon" style="background:rgba(201,146,42,0.1);">🔐</div>
+        <div class="prod-name">CIBIL Improvement</div>
+        <div class="prod-desc">Score कम है? Secured cards, credit builder plans। 3-6 महीने में significant improvement।</div>
+        <div class="prod-tag" style="background:rgba(201,146,42,0.1);color:var(--g);">Guaranteed Progress</div>
+        <div class="prod-cta">Improvement Plan →</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ WHY EKTA ═══════════════════════════ -->
+<section class="why-dark">
+  <div class="si">
+    <div class="sec-label sec-label-light">Why Ekta Sharma</div>
+    <h2 class="sec-title sec-title-light">Ekta Ji vs Direct Bank vs <em>Random Advisor</em></h2>
+    <div class="why-grid reveal">
+      <div class="why-card">
+        <div class="why-icon" style="background:rgba(201,146,42,0.15);">🏦</div>
+        <div><div class="why-title">50+ Banks का Network</div><div class="why-desc">एक bank जाओ — एक option। Ekta Ji के ज़रिए — 50+ banks के offers एक जगह compare। FOMO नहीं।</div></div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon" style="background:rgba(139,0,48,0.2);">🎯</div>
+        <div><div class="why-title">Profile-First Approach</div><div class="why-desc">Generic advice नहीं। आपकी income, score, needs देखकर exactly वही suggest जो approve होगा।</div></div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon" style="background:rgba(26,122,60,0.15);">🆓</div>
+        <div><div class="why-title">100% Free — Forever</div><div class="why-desc">Consultation free। Credit check free। Guidance free। Commission banks से मिलती है — आपसे ₹0।</div></div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon" style="background:rgba(59,130,246,0.15);">🛡️</div>
+        <div><div class="why-title">Data & Safety</div><div class="why-desc">कोई OTP नहीं, कोई password नहीं। Gromo एक RBI-backed platform है। आपका data 100% secure।</div></div>
+      </div>
+    </div>
+    <table class="vs-table reveal" style="margin-top:36px;">
+      <tr>
+        <th>Feature</th>
+        <th>✨ Ekta Sharma</th>
+        <th>Direct Bank</th>
+      </tr>
+      <tr><td>Options Available</td><td>50+ Banks — एक जगह compare</td><td>सिर्फ 1 bank के products</td></tr>
+      <tr><td>Rejection Risk</td><td>Eligibility पहले check — then apply</td><td>Apply करो — score गिरे तो गिरे</td></tr>
+      <tr><td>Consultation</td><td>Free, Personal, Unlimited</td><td>Generic helpline — hours wait</td></tr>
+      <tr><td>Interest Rate</td><td>Lowest available — multiple banks compare</td><td>Their rate — take it or leave it</td></tr>
+      <tr><td>After-Service</td><td>Har step par support — हमेशा</td><td>Application ke baad — you're alone</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ TESTIMONIALS ═══════════════════════════ -->
+<section class="testi-bg">
+  <div class="si">
+    <div class="sec-label sec-label-light">Client Stories</div>
+    <h2 class="sec-title sec-title-light">लोगों ने क्या <em>कहा</em></h2>
+    <div class="testi-grid reveal">
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"3 jagah reject ho gaya tha. Ekta Ji ne score dekha, sahi bank suggest kiya — ek hafte mein approval. Bahut helpful!"</div>
+        <div class="testi-result">✔ SBI Credit Card — 7 दिन में Approved</div>
+        <div class="testi-name">Rajesh Kumar</div><div class="testi-role">Software Engineer, Noida</div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"Business loan ke liye bahut jagah gaye. Ekta Ji ne Bajaj Finance suggest kiya — 48 ghante mein ₹10 lakh milgaye. Amazing!"</div>
+        <div class="testi-result">✔ ₹10L Business Loan — 48 घंटे में</div>
+        <div class="testi-name">Sunita Agarwal</div><div class="testi-role">Business Owner, Delhi</div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"Mujhe cards ke baare mein kuch pata nahi tha. Ekta Ji ne samjhaya, best cashback card suggest kiya. Ab ₹1200 monthly cashback!"</div>
+        <div class="testi-result">✔ ₹1,200/month Cashback — HDFC Card</div>
+        <div class="testi-name">Priya Sharma</div><div class="testi-role">Homemaker, Shahadra</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ REFER & EARN ═══════════════════════════ -->
+<section class="refer-bg" id="refer">
+  <div class="refer-inner">
+    <div class="refer-header">
+      <div>
+        <div class="sec-label sec-label-light">Referral Program</div>
+        <h2 class="sec-title sec-title-light">Refer करें — <em>₹1000 तक Earn करें</em></h2>
+        <div class="sec-desc sec-desc-light">
+          किसी को Ekta Ji से connect करवाओ। जब उनका पहला product successfully dispatch हो — आपको <b style="color:var(--g2);">₹100 से ₹1000</b> random reward मिलेगा।<br><br>
+          जितने ज़्यादा referrals — उतना ज़्यादा earn करने का chance।
+        </div>
+      </div>
+      <div class="ref-gen-card">
+        <div class="ref-gen-title">🎁 अपना Referral Code बनाएं</div>
+        <div class="ref-gen-sub">नाम और WhatsApp नंबर डालें — आपका unique code बन जाएगा।</div>
+        <div class="ref-input-row">
+          <input type="text" id="ref-name" class="ref-input" placeholder="आपका नाम">
+          <input type="tel" id="ref-phone" class="ref-input" placeholder="WhatsApp Number">
+        </div>
+        <button class="ref-gen-btn" onclick="generateRefCode()">⚡ Code Generate करें</button>
+        <div id="ref-result">
+          <div class="ref-code-display">
+            <div class="rcd-label">Your Referral Code</div>
+            <div class="rcd-code" id="rcd-code-display">EKTA0000</div>
+          </div>
+          <div class="ref-link-row">
+            <input type="text" class="ref-link-input" id="ref-link-input" readonly>
+            <button class="ref-copy-btn" onclick="copyRefLink()">📋 Copy</button>
+          </div>
+          <div class="ref-share-row">
+            <button class="ref-share-btn rsb-wa" onclick="shareRefWA()">💬 WhatsApp पर Share करें</button>
+            <button class="ref-share-btn rsb-copy" onclick="copyRefLink()">🔗 Link Copy करें</button>
+          </div>
+        </div>
+        <div id="ref-dashboard" class="ref-dash-card">
+          <div class="ref-dash-title">📊 Aapki Referral Dashboard</div>
+          <div class="ref-dash-stats">
+            <div class="rds-item"><div class="rds-val" id="rds-total">0</div><div class="rds-lbl">Total Referrals</div></div>
+            <div class="rds-item"><div class="rds-val" id="rds-pending">0</div><div class="rds-lbl">Pending</div></div>
+            <div class="rds-item"><div class="rds-val" id="rds-earned">₹0</div><div class="rds-lbl">Total Earned</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- How it works -->
+    <div class="refer-how reveal">
+      <div class="rh-step">
+        <div class="rh-ico">🔗</div>
+        <div class="rh-num">Step 01</div>
+        <div class="rh-title">Code बनाएं — Link Share करें</div>
+        <div class="rh-desc">ऊपर form भरो → अपना unique referral link पाओ → WhatsApp, message, या social पर share करो।</div>
+      </div>
+      <div class="rh-step">
+        <div class="rh-ico">👥</div>
+        <div class="rh-num">Step 02</div>
+        <div class="rh-title">Friend Ekta Ji से Connect करे</div>
+        <div class="rh-desc">आपका link click करके वो Ekta Ji से connect करें। Free credit check करें। Product apply करें।</div>
+      </div>
+      <div class="rh-step">
+        <div class="rh-ico">🎁</div>
+        <div class="rh-num">Step 03</div>
+        <div class="rh-title">Reward Earn करें</div>
+        <div class="rh-desc">पहले successful product dispatch पर — <b style="color:var(--g2);">₹100 से ₹1000 random reward</b> आपको मिलेगा।</div>
+      </div>
+    </div>
+
+    <!-- Reward amounts -->
+    <div style="text-align:center;margin-bottom:20px;">
+      <div style="font-size:13px;color:rgba(255,255,255,0.5);letter-spacing:2px;text-transform:uppercase;margin-bottom:14px;">Possible Reward Amounts</div>
+      <div class="reward-grid">
+        <div class="reward-chip"><div class="rc-val">₹100</div><div class="rc-lbl">Reward</div></div>
+        <div class="reward-chip"><div class="rc-val">₹200</div><div class="rc-lbl">Reward</div></div>
+        <div class="reward-chip"><div class="rc-val">₹300</div><div class="rc-lbl">Reward</div></div>
+        <div class="reward-chip"><div class="rc-val">₹500</div><div class="rc-lbl">Reward</div></div>
+        <div class="reward-chip"><div class="rc-val" style="color:#FFD700;">₹1000</div><div class="rc-lbl" style="color:rgba(255,215,0,0.5);">🎯 Jackpot</div></div>
+      </div>
+    </div>
+
+    <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(201,146,42,0.2);border-radius:14px;padding:20px 24px;text-align:center;" class="reveal">
+      <div style="font-family:var(--deva);font-size:14px;color:rgba(255,255,255,0.7);line-height:1.8;">
+        💡 <b style="color:var(--g2);">कोई limit नहीं।</b> जितने चाहो उतने लोगों को refer करो। हर successful referral पर reward। Reward Ekta Ji द्वारा personally Paytm/UPI के ज़रिए भेजा जाएगा।
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ FAQ ═══════════════════════════ -->
+<section class="section faq-bg" id="faq">
+  <div class="si">
+    <div class="sec-label">आपके सवाल</div>
+    <h2 class="sec-title">आपके <em>मन में होंगे</em> ये सवाल</h2>
+    <div class="faq-list reveal">
+      <div class="faq-item" onclick="this.classList.toggle('open')">
+        <div class="faq-q">Credit Score check करने से CIBIL खराब होती है क्या? <span class="faq-arr">▼</span></div>
+        <div class="faq-a"><b>नहीं!</b> Soft inquiry से CIBIL score affect नहीं होता। Ekta Ji जो free link share करती हैं — वो soft inquiry है। Score तब गिरता है जब bank hard inquiry करती है application process में। इसीलिए पहले eligibility check — फिर apply।</div>
+      </div>
+      <div class="faq-item" onclick="this.classList.toggle('open')">
+        <div class="faq-q">क्या कोई hidden charges हैं? Service free कैसे है? <span class="faq-arr">▼</span></div>
+        <div class="faq-a">पूरी service <b>100% free</b> है। Ekta Ji को Gromo platform से commission मिलता है जब product approve होता है — यह bank वैसे भी देती, Ekta Ji की वजह से extra charge नहीं लगता। आपसे ₹1 भी नहीं।</div>
+      </div>
+      <div class="faq-item" onclick="this.classList.toggle('open')">
+        <div class="faq-q">Link पर click करने पर क्या information माँगी जाती है? <span class="faq-arr">▼</span></div>
+        <div class="faq-a">Basic details: <b>नाम, Phone, Date of Birth, PAN card number।</b> कोई OTP नहीं, कोई bank password नहीं, कोई payment नहीं। पूरा process secure और RBI regulated है।</div>
+      </div>
+      <div class="faq-item" onclick="this.classList.toggle('open')">
+        <div class="faq-q">CIBIL score कम है तो क्या कोई option है? <span class="faq-arr">▼</span></div>
+        <div class="faq-a">हाँ! <b>Secured credit cards</b> (FD-backed) score build करने का सबसे safe तरीका है। 3-6 महीने में score significantly improve होता है। Ekta Ji आपके लिए specific improvement plan बनाएंगी — बिलकुल free।</div>
+      </div>
+      <div class="faq-item" onclick="this.classList.toggle('open')">
+        <div class="faq-q">Approval में कितना time लगता है? <span class="faq-arr">▼</span></div>
+        <div class="faq-a">Credit Card: <b>3-7 days</b> | Personal Loan: <b>24-72 hours</b> (pre-approved के लिए same day भी) | Business Loan: <b>48-96 hours।</b> Profile और selected bank पर depend करता है।</div>
+      </div>
+      <div class="faq-item" onclick="this.classList.toggle('open')">
+        <div class="faq-q">Refer & Earn का reward कैसे मिलेगा? <span class="faq-arr">▼</span></div>
+        <div class="faq-a">जब आपका referred person का पहला product <b>successfully dispatch हो</b> — Ekta Ji आपको personally WhatsApp करेंगी और <b>₹100-₹1000 random reward</b> Paytm/UPI से भेजेंगी। कोई minimum नहीं।</div>
+      </div>
+      <div class="faq-item" onclick="this.classList.toggle('open')">
+        <div class="faq-q">पूरे India में service मिलती है? <span class="faq-arr">▼</span></div>
+        <div class="faq-a">हाँ! Physical meeting की ज़रूरत नहीं — सब कुछ <b>online और WhatsApp पर।</b> पूरे India में service available है। Delhi NCR के लिए in-person guidance भी।</div>
+      </div>
+      <div class="faq-item" onclick="this.classList.toggle('open')">
+        <div class="faq-q">अगर कुछ समझ नहीं आया तो क्या करें? <span class="faq-arr">▼</span></div>
+        <div class="faq-a">नीचे <b>💬 Chat Assistant</b> icon पर click करें — guided questions से आपकी problem को समझेंगे। या सीधे <b>WhatsApp पर message करें</b> — Ekta Ji personally reply करेंगी।</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ FINAL CTA ═══════════════════════════ -->
+<section class="cta-section">
+  <div class="cta-inner reveal">
+    <h2 class="cta-headline">आज ही अपनी<br><span>Financial Journey</span> शुरू करें</h2>
+    <div class="cta-sub">Free credit score check → Expert guidance → Best product → Financial freedom<br>सब कुछ free, सब कुछ safe, सब कुछ आपके लिए।</div>
+    <div class="cta-btns">
+      <a href="https://sales.gromo.in/c/X07qi0y8YkI3M7Z9TyhXd" class="btn-gold" target="_blank">🔗 Free Credit Score Check</a>
+      <a href="https://wa.me/919821519049?text=Namaste%20Ekta%20Ji!%20Main%20apna%20Credit%20Score%20check%20karna%20chahta%20hoon.%20Please%20help%20karein." class="btn-wa" target="_blank">💬 WhatsApp करें</a>
+      <a href="https://sales.gromo.in/gp-website/g/X07qi0y8YkI3M7Z9TyhXd" class="btn-outline" target="_blank">🌐 All Products</a>
+    </div>
+    <div class="wa-msg-preview" style="margin-top:28px;">
+      <div class="wmp-label">💬 WhatsApp Message — Copy करके भेजें</div>
+      <div class="wmp-text">🙏 Namaste Ekta Ji! Main <code id="wmp-name">apna</code> credit score check karna chahta/chahti hoon. Mujhe <code id="wmp-need">financial guidance</code> chahiye. Please help karein. — <code id="wmp-ref-tag"></code></div>
+      <button onclick="copyWAMsg()" style="margin-top:12px;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.15);color:var(--white);padding:8px 16px;border-radius:8px;font-size:12px;cursor:pointer;">📋 Message Copy करें</button>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ BANK NETWORK ═══════════════════════════ -->
+<section class="section" style="background:var(--cream2);padding:48px 40px;">
+  <div class="si">
+    <div style="text-align:center;margin-bottom:28px;">
+      <div class="sec-label" style="justify-content:center;">Partner Banks</div>
+      <div style="font-family:var(--serif);font-size:28px;font-weight:700;color:var(--d2);">50+ Banks का Network — <em style="color:var(--c);font-style:italic;">आपके लिए</em></div>
+      <div style="font-family:var(--deva);font-size:14px;color:var(--mid);margin-top:8px;">एक bank जाओ — एक option। Ekta Ji के ज़रिए — सबसे best rate compare करके।</div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px;" class="reveal">
+      <div style="background:var(--white);border-radius:14px;padding:18px 14px;text-align:center;box-shadow:0 3px 14px rgba(139,0,48,0.06);border-bottom:3px solid var(--g);">
+        <div style="font-size:26px;margin-bottom:6px;">🏦</div>
+        <div style="font-size:13px;font-weight:700;color:var(--d2);">SBI Card</div>
+        <div style="font-size:10.5px;color:var(--mid);margin-top:4px;">ELITE, PRIME, SimplyCLICK Cards + Loans</div>
+        <div style="font-size:10px;color:var(--c);font-weight:700;margin-top:6px;">💎 Best for beginners</div>
+      </div>
+      <div style="background:var(--white);border-radius:14px;padding:18px 14px;text-align:center;box-shadow:0 3px 14px rgba(139,0,48,0.06);border-bottom:3px solid var(--g);">
+        <div style="font-size:26px;margin-bottom:6px;">🏦</div>
+        <div style="font-size:13px;font-weight:700;color:var(--d2);">HDFC Bank</div>
+        <div style="font-size:10.5px;color:var(--mid);margin-top:4px;">Regalia, Millennia, Moneyback + Quick Loans</div>
+        <div style="font-size:10px;color:var(--c);font-weight:700;margin-top:6px;">✈️ Best Travel Benefits</div>
+      </div>
+      <div style="background:var(--white);border-radius:14px;padding:18px 14px;text-align:center;box-shadow:0 3px 14px rgba(139,0,48,0.06);border-bottom:3px solid var(--g);">
+        <div style="font-size:26px;margin-bottom:6px;">🏦</div>
+        <div style="font-size:13px;font-weight:700;color:var(--d2);">Axis Bank</div>
+        <div style="font-size:10.5px;color:var(--mid);margin-top:4px;">Flipkart Axis, NEO, Ace Cards</div>
+        <div style="font-size:10px;color:var(--c);font-weight:700;margin-top:6px;">🛍️ Best Cashback</div>
+      </div>
+      <div style="background:var(--white);border-radius:14px;padding:18px 14px;text-align:center;box-shadow:0 3px 14px rgba(139,0,48,0.06);border-bottom:3px solid var(--g);">
+        <div style="font-size:26px;margin-bottom:6px;">🏦</div>
+        <div style="font-size:13px;font-weight:700;color:var(--d2);">IDFC First Bank</div>
+        <div style="font-size:10.5px;color:var(--mid);margin-top:4px;">Millennia Card, Low Interest Loans</div>
+        <div style="font-size:10px;color:var(--c);font-weight:700;margin-top:6px;">📉 Lowest Rates</div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:18px;font-family:var(--deva);font-size:13px;color:var(--mid);">
+      + ICICI, Kotak, IndusInd, AU Small Finance, Bajaj Finance, और 40+ more banks
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ CONTACT CARD ═══════════════════════════ -->
+<section class="contact-section">
+  <div class="contact-inner">
+    <div class="contact-card reveal">
+      <div class="cc-header">
+        <div class="cc-name">Ekta <span>Sharma</span></div>
+        <div class="cc-role">Financial Solutions Expert • Gromo Financial • Delhi NCR</div>
+      </div>
+      <div class="cc-body">
+        <div class="cc-row"><div class="cc-icon">📞</div><div><div class="cc-text">+91 98215 19049</div><div class="cc-sub">Call / WhatsApp — 9AM to 8PM</div></div></div>
+        <div class="cc-row"><div class="cc-icon">📧</div><div><div class="cc-text">ektaadviksharma@gmail.com</div><div class="cc-sub">Email — Reply within 24 hours</div></div></div>
+        <div class="cc-row"><div class="cc-icon">📍</div><div><div class="cc-text">Shahadra, Delhi</div><div class="cc-sub">Serving clients across India — Online & In-Person</div></div></div>
+        <div class="cc-links">
+          <a href="https://sales.gromo.in/c/X07qi0y8YkI3M7Z9TyhXd" class="cc-link" target="_blank"><span class="cc-link-label">🔗 Free Check</span>Credit Score & Eligibility</a>
+          <a href="https://sales.gromo.in/gp-website/g/X07qi0y8YkI3M7Z9TyhXd" class="cc-link gold" target="_blank"><span class="cc-link-label">🌐 Explore</span>All Financial Products</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+<!--
+═══════════════════════════════════════════════════════
+  GITHUB PAGES DEPLOYMENT GUIDE
+  (Ekta Ji / Yadu bhai ke liye)
+═══════════════════════════════════════════════════════
+
+STEP 1: GitHub account banao (free) → github.com
+
+STEP 2: New Repository banao
+  → github.com > "+" > New Repository
+  → Name: "ekta-sharma" ya "financial-advisor"
+  → Public select karo
+  → "Create repository"
+
+STEP 3: Ye file upload karo
+  → "Add file" > "Upload files"
+  → Ye HTML file drag & drop karo
+  → File ka naam ZAROOR "index.html" rakho
+  → "Commit changes" click karo
+
+STEP 4: GitHub Pages enable karo
+  → Repository > Settings > Pages (left sidebar)
+  → Source: "Deploy from a branch"
+  → Branch: "main" select karo
+  → Save click karo
+
+STEP 5: URL milega (2-3 min mein):
+  → https://[aapka-username].github.io/[repo-name]/
+
+STEP 6: Referral links automatically us URL se generate honge!
+  → Example: https://ektasharma.github.io/financial-advisor/?ref=EKTANAME1234
+
+Custom Domain (optional):
+  → Namecheap/GoDaddy se domain lo
+  → GitHub Pages > Custom domain mein daalo
+  → Example: www.ektasharma.in
+
+═══════════════════════════════════════════════════════
+-->
+<footer>
+  <div class="ft">Right Advice. Right Product. <span>Right Time.</span></div>
+  <div class="fdiv"></div>
+  <div class="flinks">
+    <a href="https://sales.gromo.in/c/X07qi0y8YkI3M7Z9TyhXd" target="_blank">Free Credit Check</a>
+    <a href="https://sales.gromo.in/gp-website/g/X07qi0y8YkI3M7Z9TyhXd" target="_blank">Financial Products</a>
+    <a href="#refer">Refer & Earn 🎁</a>
+    <a href="https://wa.me/919821519049" target="_blank">WhatsApp</a>
+    <a href="mailto:ektaadviksharma@gmail.com">Email</a>
+    <a href="#faq">FAQ</a>
+  </div>
+  <div class="fcopy">
+    © 2025 Ekta Sharma • Financial Advisor • Gromo Financial Solutions • Shahadra, Delhi<br>
+    Trust · Grow · Succeed &nbsp;|&nbsp; All consultations are free. Products provided by respective banks/NBFCs.
+  </div>
+</footer>
+
+<!-- Mobile bottom padding -->
+<div style="height:70px;display:none;" id="mob-spacer"></div>
+
+<!-- ═══════════════════════════ FLOATING WA ═══════════════════════════ -->
+<div class="wa-float-wrap">
+  <div class="wa-popup" id="wa-popup">
+    <div class="wp-header">
+      <div class="wp-avatar">ES</div>
+      <div><div class="wp-name">Ekta Sharma</div><div class="wp-status">● Online — Usually replies in minutes</div></div>
+    </div>
+    <div class="wp-body">
+      <div class="wp-msg">Namaste! 🙏 Main Ekta Sharma hoon — Financial Advisor. Aapki kya help kar sakti hoon?</div>
+      <div class="wp-quick">
+        <a class="wpq-btn" href="https://wa.me/919821519049?text=Namaste%20Ekta%20Ji!%20Mujhe%20Credit%20Card%20ke%20baare%20mein%20guidance%20chahiye." target="_blank">💳 Credit Card chahiye</a>
+        <a class="wpq-btn" href="https://wa.me/919821519049?text=Namaste%20Ekta%20Ji!%20Mujhe%20Personal%20Loan%20ke%20baare%20mein%20guidance%20chahiye." target="_blank">💰 Personal Loan chahiye</a>
+        <a class="wpq-btn" href="https://wa.me/919821519049?text=Namaste%20Ekta%20Ji!%20Mujhe%20Business%20Loan%20ke%20baare%20mein%20baat%20karni%20hai." target="_blank">🏢 Business Loan chahiye</a>
+        <a class="wpq-btn" href="https://wa.me/919821519049?text=Namaste%20Ekta%20Ji!%20Mera%20CIBIL%20score%20kharab%20hai.%20Kya%20koi%20option%20hai?" target="_blank">📉 CIBIL score kharab hai</a>
+        <a class="wpq-btn" href="https://wa.me/919821519049?text=Namaste%20Ekta%20Ji!%20Mujhe%20financial%20guidance%20chahiye." target="_blank">🤔 Kuch aur poochna hai</a>
+      </div>
+      <a href="https://wa.me/919821519049" class="wp-open-btn" target="_blank">💬 Open WhatsApp Chat</a>
+    </div>
+  </div>
+  <div class="wa-label" id="wa-label" style="display:none;">Chat with Ekta Ji</div>
+  <button class="wa-float" id="wa-btn" onclick="toggleWAPopup()" title="WhatsApp Ekta Ji">💬</button>
+</div>
+
+<!-- ═══════════════════════════ CHATBOT WIDGET ═══════════════════════════ -->
+<div class="chatbot-wrap">
+  <div class="chatbot-panel" id="chatbot-panel">
+    <div class="cb-header">
+      <div class="cb-header-left">
+        <div class="cb-avatar">🤖</div>
+        <div><div class="cb-title">Ekta Ji Assistant</div><div class="cb-status" id="cb-status-txt">Confused? Main help karunga!</div></div>
+      </div>
+      <button class="cb-close" onclick="toggleChatbot()">✕</button>
+    </div>
+    <div class="cb-ai-badge" onclick="openGroqModalCb()" id="cb-ai-badge">
+      <span class="ai-dot"></span> <span id="cb-ai-txt">⚡ AI upgrade karein — smarter answers milenge</span>
+    </div>
+    <div class="cb-body" id="cb-body"></div>
+    <div class="cb-footer">
+      <div class="cb-input-row">
+        <input class="cb-input" id="cb-input" placeholder="Type karein ya options choose karein..." onkeydown="if(event.key==='Enter')cbSend()">
+        <button class="cb-send" onclick="cbSend()">➤</button>
+      </div>
+    </div>
+  </div>
+  <button class="chatbot-btn" onclick="toggleChatbot()" title="Chat Assistant">🤖</button>
+</div>
+
+<!-- Groq Modal for AI Chatbot -->
+<div id="groq-modal-cb" onclick="if(event.target===this)closeGroqModalCb()">
+  <div class="gcb-box">
+    <div class="gcb-title">⚡ AI Mode Enable करें</div>
+    <div class="gcb-sub">
+      Free Groq API key से chatbot AI-powered हो जाएगा।<br>
+      <b style="color:var(--c);">Free key पाने के लिए:</b><br>
+      1. <a href="https://console.groq.com" target="_blank" style="color:var(--c);">console.groq.com</a> → Sign up (free)<br>
+      2. API Keys → Create → Copy karein
+    </div>
+    <input class="gcb-input" id="groq-key-cb" type="password" placeholder="gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxx">
+    <button class="gcb-save" onclick="saveGroqKeyCb()">💾 Save करें — AI Mode On करें</button>
+    <button class="gcb-cancel" onclick="closeGroqModalCb()">बाद में करूँगा/करूँगी</button>
+    <div style="font-size:10px;color:var(--mid);text-align:center;margin-top:10px;">Key sirf aapke browser mein save hogi — safe hai ✅</div>
+  </div>
+</div>
+
+<!-- Mobile Bottom Nav -->
+<nav class="mob-nav-fixed" id="mob-nav">
+  <a href="https://sales.gromo.in/c/X07qi0y8YkI3M7Z9TyhXd" class="mnf-btn primary" target="_blank"><span class="mnf-ico">🔗</span>Free Check</a>
+  <button class="mnf-btn wa" onclick="toggleWAPopup()"><span class="mnf-ico">💬</span>WhatsApp</button>
+  <button class="mnf-btn" onclick="document.getElementById('refer').scrollIntoView({behavior:'smooth'})"><span class="mnf-ico">🎁</span>Refer</button>
+  <button class="mnf-btn" onclick="toggleChatbot()"><span class="mnf-ico">🤖</span>Help</button>
+</nav>
+
+<!-- Toast -->
+<div id="toast">✓ Copied!</div>
+
+<script>
+// ════════════════════════════ UTILITIES ════════════════════════════
+function showToast(msg){
+  const t=document.getElementById('toast');
+  t.textContent=msg;t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),2500);
+}
+
+// ════════════════════════════ SCROLL PROGRESS ════════════════════════════
+window.addEventListener('scroll',()=>{
+  const h=document.documentElement.scrollHeight-window.innerHeight;
+  document.getElementById('progress-bar').style.width=(window.scrollY/h*100)+'%';
+});
+
+// ════════════════════════════ SCROLL REVEAL ════════════════════════════
+const revEls=document.querySelectorAll('.reveal');
+const revObs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');revObs.unobserve(e.target);}});
+},{threshold:0.12,rootMargin:'0px 0px -40px 0px'});
+revEls.forEach(el=>revObs.observe(el));
+
+// ════════════════════════════ MOBILE NAV SHOW ════════════════════════════
+if(window.innerWidth<=640){
+  document.getElementById('mob-spacer').style.display='block';
+}
+
+// ════════════════════════════ REFERRAL SYSTEM ════════════════════════════
+const BASE_URL=window.location.origin+window.location.pathname;
+
+function generateRefCode(){
+  const name=document.getElementById('ref-name').value.trim();
+  const phone=document.getElementById('ref-phone').value.trim().replace(/\D/g,'');
+  if(!name||name.length<2){showToast('⚠ कृपया अपना नाम डालें');return;}
+  if(!phone||phone.length<10){showToast('⚠ सही WhatsApp number डालें');return;}
+  const clean=name.replace(/\s/g,'').substring(0,4).toUpperCase();
+  const nums=phone.slice(-4);
+  const code='EKTA'+clean+nums;
+  const link=BASE_URL+'?ref='+code;
+  // Store
+  const myData={code,name,phone,link,created:Date.now(),referrals:[],earned:0};
+  localStorage.setItem('myRefData',JSON.stringify(myData));
+  // Update UI
+  document.getElementById('rcd-code-display').textContent=code;
+  document.getElementById('ref-link-input').value=link;
+  document.getElementById('ref-result').style.display='block';
+  updateRefDashboard();
+  launchConfetti();
+  showToast('🎉 Code बन गया! अभी share करें!');
+  // Update WA message
+  document.getElementById('wmp-name').textContent=name;
+  document.getElementById('wmp-ref-tag').textContent='[Ref:'+code+']';
+}
+
+function copyRefLink(){
+  const val=document.getElementById('ref-link-input').value;
+  if(!val){showToast('⚠ पहले code generate करें');return;}
+  navigator.clipboard.writeText(val).then(()=>showToast('✅ Link copied! अभी share करें'));
+}
+
+function shareRefWA(){
+  const d=JSON.parse(localStorage.getItem('myRefData')||'{}');
+  if(!d.code){showToast('⚠ पहले code generate करें');return;}
+  const msg=`🙏 Namaste!
+
+Main Ekta Sharma se financial guidance le raha/rahi hoon — credit cards, loans, free credit score check — sab FREE!
+
+Mujhe bahut help mili. Aap bhi try karein:
+👉 ${d.link}
+
+Ekta Ji se directly baat karein:
+📞 +91 98215 19049
+
+Bilkul free hai — koi obligation nahi! ✅`;
+  window.open('https://wa.me/?text='+encodeURIComponent(msg),'_blank');
+}
+
+function updateRefDashboard(){
+  const d=JSON.parse(localStorage.getItem('myRefData')||'null');
+  if(!d)return;
+  const dash=document.getElementById('ref-dashboard');
+  dash.style.display='block';
+  document.getElementById('rds-total').textContent=d.referrals?d.referrals.length:0;
+  document.getElementById('rds-pending').textContent=(d.referrals||[]).filter(r=>!r.rewarded).length;
+  document.getElementById('rds-earned').textContent='₹'+(d.earned||0);
+}
+
+// Check referral on load
+window.addEventListener('DOMContentLoaded',()=>{
+  const params=new URLSearchParams(window.location.search);
+  const ref=params.get('ref');
+  if(ref){
+    localStorage.setItem('visitedWithRef',ref);
+    const banner=document.getElementById('ref-banner');
+    const nameEl=document.getElementById('ref-banner-name');
+    // Extract name from code (EKTA + NAME4 + NUM4)
+    const namePart=ref.replace('EKTA','').slice(0,-4);
+    const displayName=namePart.charAt(0)+namePart.slice(1).toLowerCase();
+    nameEl.textContent=displayName||'एक दोस्त';
+    banner.style.display='block';
+    // Pre-fill WA message with ref
+    document.getElementById('wmp-ref-tag').textContent='[Ref:'+ref+']';
+    showToast('🎉 Welcome! आप refer होकर आए हैं — priority service मिलेगी!');
+  }
+  // Restore existing ref data
+  const existing=localStorage.getItem('myRefData');
+  if(existing){
+    const d=JSON.parse(existing);
+    document.getElementById('ref-name').value=d.name||'';
+    document.getElementById('ref-phone').value=d.phone||'';
+    document.getElementById('rcd-code-display').textContent=d.code;
+    document.getElementById('ref-link-input').value=d.link;
+    document.getElementById('ref-result').style.display='block';
+    updateRefDashboard();
+  }
+});
+
+// ════════════════════════════ CONFETTI ════════════════════════════
+function launchConfetti(){
+  const colors=['#E8B84B','#8B0030','#C9922A','#FFFFFF','#22A050'];
+  for(let i=0;i<40;i++){
+    const p=document.createElement('div');
+    p.className='confetti-piece';
+    p.style.cssText=`
+      left:${Math.random()*100}vw;
+      top:${Math.random()*50}vh;
+      background:${colors[Math.floor(Math.random()*colors.length)]};
+      animation-delay:${Math.random()*0.5}s;
+      animation-duration:${2+Math.random()*1.5}s;
+      transform:rotate(${Math.random()*360}deg);
+    `;
+    document.body.appendChild(p);
+    setTimeout(()=>p.remove(),4000);
+  }
+}
+
+// ════════════════════════════ WA POPUP ════════════════════════════
+function toggleWAPopup(){
+  const popup=document.getElementById('wa-popup');
+  const label=document.getElementById('wa-label');
+  const show=!popup.classList.contains('show');
+  popup.classList.toggle('show',show);
+  label.style.display=show?'inline-block':'none';
+}
+document.addEventListener('click',e=>{
+  const wrap=document.querySelector('.wa-float-wrap');
+  if(!wrap.contains(e.target)){
+    document.getElementById('wa-popup').classList.remove('show');
+    document.getElementById('wa-label').style.display='none';
+  }
+});
+
+// ════════════════════════════ PRODUCT WA ════════════════════════════
+function openWAForProduct(product){
+  const msgs={
+    'Credit Card':'Namaste%20Ekta%20Ji!%20Mujhe%20Credit%20Card%20chahiye.%20Kaunsa%20best%20rahega%20meri%20profile%20ke%20liye?',
+    'Personal Loan':'Namaste%20Ekta%20Ji!%20Mujhe%20Personal%20Loan%20ki%20zaroorat%20hai.%20Eligibility%20check%20karni%20hai.',
+    'Business Loan':'Namaste%20Ekta%20Ji!%20Mujhe%20Business%20Loan%20ke%20baare%20mein%20baat%20karni%20hai.',
+    'Demat Account':'Namaste%20Ekta%20Ji!%20Mujhe%20Demat%20Account%20kholna%20hai.%20Best%20option%20kya%20rahega?',
+    'Mutual Fund / SIP':'Namaste%20Ekta%20Ji!%20Main%20SIP%20ya%20Mutual%20Fund%20mein%20invest%20karna%20chahta%20hoon.',
+    'Credit Score Improvement':'Namaste%20Ekta%20Ji!%20Mera%20CIBIL%20score%20kharab%20hai.%20Improve%20karne%20ka%20plan%20chahiye.'
+  };
+  const ref=localStorage.getItem('visitedWithRef');
+  const refTag=ref?'%20%5BRef%3A'+ref+'%5D':'';
+  window.open('https://wa.me/919821519049?text='+(msgs[product]||'Namaste%20Ekta%20Ji!')+refTag,'_blank');
+}
+
+// ════════════════════════════ WA MESSAGE COPY ════════════════════════════
+function copyWAMsg(){
+  const name=document.getElementById('wmp-name').textContent;
+  const need=document.getElementById('wmp-need').textContent;
+  const ref=document.getElementById('wmp-ref-tag').textContent;
+  const msg=`🙏 Namaste Ekta Ji! Main ${name} credit score check karna chahta/chahti hoon. Mujhe ${need} chahiye. Please help karein. ${ref}`;
+  navigator.clipboard.writeText(msg).then(()=>showToast('✅ Message copied!'));
+}
+
+// ════════════════════════════ CHATBOT — GROQ AI UPGRADE ════════════════════════════
+const GROQ_CB_ENDPOINT='https://api.groq.com/openai/v1/chat/completions';
+let cbConvHistory=[];
+
+function getCbGroqKey(){return localStorage.getItem('groq_key_cb')||'';}
+function openGroqModalCb(){document.getElementById('groq-modal-cb').classList.add('on');}
+function closeGroqModalCb(){document.getElementById('groq-modal-cb').classList.remove('on');}
+function saveGroqKeyCb(){
+  const k=document.getElementById('groq-key-cb').value.trim();
+  if(!k.startsWith('gsk_')){cbAddMsg('Invalid key format. "gsk_" se start hona chahiye.','bot');return;}
+  localStorage.setItem('groq_key_cb',k);
+  closeGroqModalCb();
+  const badge=document.getElementById('cb-ai-badge');
+  document.getElementById('cb-ai-txt').textContent='🤖 AI Mode ON — Smart answers enabled!';
+  badge.style.cssText=badge.style.cssText+'background:rgba(26,122,60,0.12)!important;border-color:rgba(26,122,60,0.3)!important;color:var(--green)!important;';
+  cbAddMsg('AI Mode enable ho gaya! 🎉\n\nAb aap freely kuch bhi pooch sakte hain — main Ekta Ji ki taraf se best answer dunga!','bot');
+}
+
+const CB_SYSTEM=`You are Ekta Sharma's friendly AI assistant on her financial advisor website.
+Ekta is a Gromo Financial Advisor in Shahadra, Delhi.
+
+KEY LINKS (always include when relevant):
+- Free Credit Score Check: https://sales.gromo.in/c/X07qi0y8YkI3M7Z9TyhXd
+- All Products: https://sales.gromo.in/gp-website/g/X07qi0y8YkI3M7Z9TyhXd
+- WhatsApp Ekta Ji: https://wa.me/919821519049 | Phone: +91 98215 19049
+
+RULES:
+- Respond in Hinglish (Hindi-English mix, casual but helpful)
+- Be warm, concise (max 4 lines)
+- Guide users toward free credit check OR WhatsApp Ekta Ji
+- Never give specific rates (say "Ekta Ji se confirm karein")
+- For CIBIL issues: suggest secured card / credit builder path
+- For non-financial: politely redirect
+- Always end with a clear next step or link`;
+
+function cbAddMsg(text,type){
+  const body=document.getElementById('cb-body');
+  const div=document.createElement('div');div.className='cb-msg '+type;
+  const bub=document.createElement('div');bub.className='cb-bubble';bub.style.whiteSpace='pre-wrap';
+  bub.innerHTML=text.replace(/(https?:\/\/[^\s<]+)/g,'<a href="$1" target="_blank" style="color:var(--c);word-break:break-all;">$1</a>');
+  div.appendChild(bub);body.appendChild(div);
+  body.scrollTop=body.scrollHeight;
+}
+function cbShowTyping(){
+  const body=document.getElementById('cb-body');
+  const div=document.createElement('div');div.className='cb-msg bot';div.id='cb-typing-ind';
+  div.innerHTML='<div class="cb-typing"><span></span><span></span><span></span></div>';
+  body.appendChild(div);body.scrollTop=body.scrollHeight;return div;
+}
+function cbShowOpts(opts){
+  const body=document.getElementById('cb-body');
+  const div=document.createElement('div');div.className='cb-msg bot';
+  const wrap=document.createElement('div');wrap.className='cb-options';
+  opts.forEach(opt=>{
+    const btn=document.createElement('button');btn.className='cb-opt';btn.textContent=opt.label;
+    btn.onclick=()=>{
+      cbAddMsg(opt.label,'user');
+      if(div.parentElement)div.parentElement.removeChild(div);
+      if(opt.next)cbStep(opt.next);
+      else if(opt.action){if(typeof opt.action==='function')opt.action();else cbAction(opt.action);}
+    };wrap.appendChild(btn);
+  });
+  div.appendChild(wrap);body.appendChild(div);body.scrollTop=body.scrollHeight;
+}
+
+const cbFlow={
+  start:{msg:'Namaste! 🙏 Main Ekta Ji ka assistant hoon.\nAapki kya help kar sakta hoon?\n(Aap direct type bhi kar sakte hain!)',opts:[
+    {label:'💳 Credit Card chahiye',next:'card'},
+    {label:'💰 Personal Loan chahiye',next:'ploan'},
+    {label:'🏢 Business Loan chahiye',next:'bloan'},
+    {label:'📉 CIBIL score problem hai',next:'cibil'},
+    {label:'❓ Score check kaise karein?',next:'howcheck'},
+    {label:'🎁 Refer & Earn kaise kaam karta hai?',next:'referinfo'}
+  ]},
+  card:{msg:'Credit Card ke liye — pehle free credit score check best hai.\nScore ke hisaab se Ekta Ji personally best card suggest karein.\n\nBilkul free, 2 minute mein!',opts:[{label:'🔗 Free Score Check',action:'openScore'},{label:'💬 WhatsApp Ekta Ji',action:'openWA'},{label:'⬅ Wapas',next:'start'}]},
+  ploan:{msg:'Personal Loan eligibility score + income se decide hoti hai.\nFree check karo — phir Ekta Ji batayengi exact amount aur best bank!\n\nKoi OTP nahi · Koi charge nahi.',opts:[{label:'🔗 Free Eligibility Check',action:'openScore'},{label:'💬 WhatsApp pe poochein',action:'openWA'},{label:'⬅ Wapas',next:'start'}]},
+  bloan:{msg:'Business Loan ke liye turnover, GST, aur credit history matter karti hai.\nEkta Ji personally assess karke best collateral-free option suggest karein.\n\nSeedha WhatsApp karo — fast response!',opts:[{label:'💬 Ekta Ji se consult karein',action:'openWA'},{label:'🔗 Products dekhen',action:'openProducts'},{label:'⬅ Wapas',next:'start'}]},
+  cibil:{msg:'CIBIL kharab hai toh bhi options hain! 💪\n→ Secured Credit Cards (FD-backed)\n→ Credit Builder Programs\n→ 3-6 mahine mein significant improvement\n\nEkta Ji ka free improvement plan lo!',opts:[{label:'💬 Improvement plan chahiye',action:'openWAcibil'},{label:'🔗 Free Score Check',action:'openScore'},{label:'⬅ Wapas',next:'start'}]},
+  howcheck:{msg:'Score check karna easy hai! 👇\n1️⃣ Free link click karein\n2️⃣ Name, Phone, DOB, PAN fill karein\n3️⃣ Instant CIBIL score + report\n4️⃣ Screenshot Ekta Ji ko WhatsApp karein\n\nKoi OTP nahi · Free · 100% safe',opts:[{label:'🔗 Abhi Check Karein',action:'openScore'},{label:'💬 Doubt hai?',action:'openWA'},{label:'⬅ Wapas',next:'start'}]},
+  referinfo:{msg:'Refer & Earn — bahut simple! 🎁\n🔗 Apna referral code banao\n👥 Dosto ko link share karo\n💰 Product dispatch pe ₹100-₹1000 random reward!\n\nKoi limit nahi — jitne refer karo!',opts:[{label:'🎁 Referral Code banao',action:'goRefer'},{label:'⬅ Wapas',next:'start'}]}
+};
+
+function cbStep(key){
+  const step=cbFlow[key];if(!step)return;
+  const t=cbShowTyping();
+  setTimeout(()=>{t.remove();cbAddMsg(step.msg,'bot');if(step.opts)setTimeout(()=>cbShowOpts(step.opts),300);},600);
+}
+function cbAction(act){
+  const actions={
+    openScore:()=>window.open('https://sales.gromo.in/c/X07qi0y8YkI3M7Z9TyhXd','_blank'),
+    openWA:()=>window.open('https://wa.me/919821519049?text=Namaste%20Ekta%20Ji!%20Mujhe%20financial%20guidance%20chahiye.','_blank'),
+    openWAcibil:()=>window.open('https://wa.me/919821519049?text=Namaste%20Ekta%20Ji!%20Mera%20CIBIL%20score%20kharab%20hai.%20Improvement%20plan%20chahiye.','_blank'),
+    openProducts:()=>window.open('https://sales.gromo.in/gp-website/g/X07qi0y8YkI3M7Z9TyhXd','_blank'),
+    goRefer:()=>document.getElementById('refer').scrollIntoView({behavior:'smooth'}),
+    closeBot:()=>toggleChatbot()
+  };
+  if(actions[act])actions[act]();
+  if(act==='closeBot')return;
+  setTimeout(()=>{
+    cbAddMsg('Kuch aur help chahiye?','bot');
+    setTimeout(()=>cbShowOpts([{label:'⬅ Main menu',next:'start'},{label:'✕ Close',action:'closeBot'}]),300);
+  },600);
+}
+
+async function cbCallGroqAI(userMsg){
+  const key=getCbGroqKey();if(!key)return null;
+  cbConvHistory.push({role:'user',content:userMsg});
+  const t=cbShowTyping();
+  try{
+    const res=await fetch(GROQ_CB_ENDPOINT,{
+      method:'POST',
+      headers:{'Content-Type':'application/json','Authorization':'Bearer '+key},
+      body:JSON.stringify({model:'llama-3.1-70b-versatile',max_tokens:300,messages:[{role:'system',content:CB_SYSTEM},...cbConvHistory.slice(-6)]})
+    });
+    if(res.status===401){localStorage.removeItem('groq_key_cb');t.remove();return null;}
+    const data=await res.json();
+    const reply=data.choices?.[0]?.message?.content||null;
+    if(reply)cbConvHistory.push({role:'assistant',content:reply});
+    t.remove();return reply;
+  }catch{t.remove();return null;}
+}
+
+let chatbotOpen=false;
+function toggleChatbot(){
+  const panel=document.getElementById('chatbot-panel');
+  chatbotOpen=!chatbotOpen;
+  panel.classList.toggle('show',chatbotOpen);
+  if(chatbotOpen && document.getElementById('cb-body').children.length===0){
+    cbStep('start');
+  }
+}
+
+async function cbSend(){
+  const inp=document.getElementById('cb-input');
+  const val=inp.value.trim();if(!val)return;
+  cbAddMsg(val,'user');inp.value='';
+  // Try Groq AI first
+  const aiReply=await cbCallGroqAI(val);
+  if(aiReply){
+    cbAddMsg(aiReply,'bot');
+    setTimeout(()=>cbShowOpts([
+      {label:'🔗 Free Score Check',action:'openScore'},
+      {label:'💬 WhatsApp Ekta Ji',action:'openWA'},
+      {label:'⬅ Main menu',next:'start'}
+    ]),400);
+    return;
+  }
+  // Fallback keyword matching
+  const v=val.toLowerCase();
+  setTimeout(()=>{
+    if(v.includes('card'))cbStep('card');
+    else if(v.includes('personal loan')||v.includes('ploan')||v.includes('loan'))cbStep('ploan');
+    else if(v.includes('business'))cbStep('bloan');
+    else if(v.includes('cibil')||v.includes('score')||v.includes('kharab'))cbStep('cibil');
+    else if(v.includes('check')||v.includes('kaise'))cbStep('howcheck');
+    else if(v.includes('refer')||v.includes('earn'))cbStep('referinfo');
+    else{
+      cbAddMsg('Mujhe samajh nahi aaya 😅\n\nAI Mode enable karo for smarter answers — ya seedha Ekta Ji se poochein!','bot');
+      setTimeout(()=>cbShowOpts([
+        {label:'⚡ AI Mode Enable karein',action:()=>openGroqModalCb()},
+        {label:'💬 WhatsApp Ekta Ji',action:'openWA'},
+        {label:'⬅ Menu',next:'start'}
+      ]),300);
+    }
+  },500);
+}
+
+// Init AI badge state
+window.addEventListener('DOMContentLoaded',()=>{
+  if(getCbGroqKey()){
+    const el=document.getElementById('cb-ai-txt');
+    if(el)el.textContent='🤖 AI Mode ON — Smart answers ready';
+  }
+});
+
+// ════════════════════════════ CTA CLICK TRACKING ════════════════════════════
+// When referred user clicks any main CTA, auto-build WA message with ref info
+document.querySelectorAll('a[href*="gromo.in"], a[href*="wa.me"]').forEach(link=>{
+  link.addEventListener('click',()=>{
+    const ref=localStorage.getItem('visitedWithRef');
+    if(ref){
+      // Log click locally
+      const log=JSON.parse(localStorage.getItem('ref_clicks')||'[]');
+      log.push({ref,time:Date.now(),url:link.href.substring(0,60)});
+      localStorage.setItem('ref_clicks',JSON.stringify(log.slice(-20)));
+    }
+  });
+});
+
+// ════════════════════════════ NOTIFY EKTA (auto WA when ref clicks score) ════════════════════════════
+function trackScoreClick(){
+  const ref=localStorage.getItem('visitedWithRef');
+  const name=document.getElementById('ref-banner-name').textContent;
+  if(ref){
+    // Send WA to Ekta with referral tracking info (optional - opens WA)
+    const msg=`[AUTO TRACK] Ek referred client ne free score check link click kiya. Referral Code: ${ref}. Please follow up!`;
+    // Store locally for dashboard - don't auto-open WA to avoid annoyance
+    const log=JSON.parse(localStorage.getItem('track_log')||'[]');
+    log.push({ref,time:new Date().toLocaleString('hi-IN'),event:'score_click'});
+    localStorage.setItem('track_log',JSON.stringify(log));
+  }
+}
+
+// Attach to all score check links
+document.querySelectorAll('a[href*="gromo.in/c/"]').forEach(l=>{
+  l.addEventListener('click',trackScoreClick);
+});
+
+// ════════════════════════════ COUNTER ANIMATION ════════════════════════════
+function animateCounter(el,target,prefix='',suffix=''){
+  let start=0;const dur=1800;const steps=60;const step=target/steps;
+  const t=setInterval(()=>{
+    start=Math.min(start+step,target);
+    el.textContent=prefix+Math.floor(start)+suffix;
+    if(start>=target)clearInterval(t);
+  },dur/steps);
+}
+const statsObs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      statsObs.disconnect();
+      // Animate the stat values
+      const statEls=document.querySelectorAll('.hstat-val');
+      // 50+, FREE, 2 Min, ₹0 — only animate numeric ones
+      if(statEls[0]) animateCounter(statEls[0],50,'','+ Banks');
+      // statEls[1] = FREE, statEls[2] = 2 Min, statEls[3] = ₹0 — keep static
+    }
+  });
+},{threshold:0.5});
+const statsEl=document.querySelector('.hero-stats');
+if(statsEl)statsObs.observe(statsEl);
+
+// ════════════════════════════ SMART WA MESSAGE UPDATER ════════════════════════════
+// Update WA message preview dynamically based on referral
+function updateWAPreview(){
+  const ref=localStorage.getItem('visitedWithRef');
+  if(ref){
+    document.getElementById('wmp-ref-tag').textContent='[Ref:'+ref+']';
+  }
+}
+updateWAPreview();
+
+// ════════════════════════════ GITHUB PAGES: URL FIX ════════════════════════════
+// Ensure referral links work on GitHub Pages with any base path
+window.addEventListener('DOMContentLoaded',()=>{
+  // Fix referral link to use current page URL
+  const existing=localStorage.getItem('myRefData');
+  if(existing){
+    const d=JSON.parse(existing);
+    const correctLink=window.location.href.split('?')[0]+'?ref='+d.code;
+    d.link=correctLink;
+    localStorage.setItem('myRefData',JSON.stringify(d));
+    const inp=document.getElementById('ref-link-input');
+    if(inp)inp.value=correctLink;
+  }
+});
+
+</script>
+</body>
+</html>
